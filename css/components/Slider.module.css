@@ -1,0 +1,14 @@
+.container {
+  width: 100%;
+}
+
+.linkSlider {
+  width: 100%;
+  aspect-ratio: 29 / 9;
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  position: relative;
+}

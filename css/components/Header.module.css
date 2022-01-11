@@ -1,0 +1,171 @@
+.header {
+  width: 100%;
+  padding: 1rem;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 1rem;
+  place-items: center;
+  -webkit-box-align: center;
+}
+
+.searchAndButtonContainer {
+  grid-column: 1 / span 4;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 9fr;
+  gap: 1rem;
+  position: relative;
+}
+
+/* Boton menu */
+.buttonOpenMenu {
+  width: 2.5rem;
+  height: 2.5rem;
+  padding: 0.3rem 0.3rem 0.3rem 0;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  -webkit-box-align: center;
+  align-items: center;
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.linebutton {
+  width: 2rem;
+  height: 0.2rem;
+  background-color: var(--blue);
+  border-radius: 0.1rem;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+/* Logo */
+
+.logoContainer {
+  grid-column: 5 / span 1;
+  width: 2.5rem;
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+/* Botton Carrito de compras */
+
+.buttonShoppingCart {
+  grid-column: 6 / span 1;
+  width: 2.5rem;
+  height: 2.5rem;
+  padding: 0.3rem 0.3rem 0.3rem 0;
+  margin: auto;
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  position: relative;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.counter {
+  width: 1.4rem;
+  height: 1.4rem;
+  border-radius: 50%;
+  background-color: var(--red);
+  color: var(--white);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.8rem;
+  position: absolute;
+  top: -0.5rem;
+  right: -0.5rem;
+}
+
+/* Secion de registro */
+
+.sectionLogin {
+  grid-area: 2 / 1 / span 1 / span 6;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  align-items: center;
+}
+
+.logInText {
+  font-size: 0.9rem;
+}
+
+.loginLink {
+  padding: 0.1rem;
+  font-size: 0.8rem;
+  color: var(--light-blue);
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 0.2rem;
+}
+
+@media (min-width: 750px) {
+  .buttonShoppingCart {
+    width: 3rem;
+    height: 3rem;
+  }
+
+  .sectionLogin {
+    justify-content: flex-end;
+  }
+
+  .loginLink {
+    margin-left: 1rem;
+  }
+}
+
+@media (min-width: 1000px) {
+  .header {
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: repeat(2, 1fr);
+  }
+
+  .searchAndButtonContainer {
+    grid-column: 2 / span 1;
+    position: initial;
+  }
+
+  .buttonOpenMenu {
+    display: none;
+  }
+
+  .logoContainer {
+    grid-area: 1 / 1 / span 1 / span 1;
+    width: 5rem;
+  }
+
+  .buttonShoppingCart {
+    grid-area: 1 / 3 / span 1 / span 1;
+  }
+
+  .sectionLogin {
+    grid-row: 3 / span 1;
+    justify-content: center;
+  }
+
+  .logInText,
+  .loginLink {
+    font-size: 1.2rem;
+  }
+}

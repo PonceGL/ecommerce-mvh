@@ -1,0 +1,355 @@
+.menu {
+  width: 100vw;
+  min-height: 100vh;
+  padding: 4rem 1rem 8rem;
+  display: flex;
+  flex-direction: column;
+  -webkit-box-pack: start;
+  justify-content: flex-start;
+  -webkit-box-align: center;
+  align-items: center;
+  background-color: var(--background);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  overflow-x: hidden;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.menuClose {
+  left: -200%;
+  box-shadow: rgb(67 67 67) 0.5rem 0.5rem 1rem 0.5rem;
+}
+
+.closeButton {
+  width: 2.5rem;
+  height: 2.5rem;
+  padding: 0.5rem 0.5rem 0.5rem 0;
+  border: none;
+  background: none;
+  outline: none;
+  cursor: pointer;
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
+}
+
+.closeButton::after {
+  content: "\2715";
+  position: absolute;
+  inset: 0px;
+  font-size: 2.5rem;
+  color: var(--blue);
+  line-height: 2.5rem;
+  text-align: center;
+}
+
+.list {
+  width: 100%;
+  height: 90%;
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  -webkit-box-pack: start;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.item {
+  width: 100%;
+  height: 4rem;
+  margin: 1rem 0;
+  display: grid;
+  grid-template-columns: 9fr 1fr;
+  gap: 0.5rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.itemSession {
+  width: 100%;
+  height: 4rem;
+  margin: 1rem 0px;
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+}
+
+.link {
+  width: 100%;
+  height: 100%;
+  padding: 1rem 0px 1rem 1rem;
+  display: flex;
+  -webkit-box-pack: start;
+  justify-content: flex-start;
+  -webkit-box-align: center;
+  align-items: center;
+  font-size: 2rem;
+  font-weight: 400;
+  text-transform: capitalize;
+  color: var(--blue);
+  background: none;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.buttonSubMenu {
+  width: 100%;
+  height: 100%;
+  color: var(--blue);
+  font-size: 1.8rem;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.containerSubMenu {
+  width: 100vw;
+  min-height: 100vh;
+  padding: 4rem 1rem 8rem;
+  display: flex;
+  flex-direction: column;
+  -webkit-box-pack: start;
+  justify-content: flex-start;
+  -webkit-box-align: center;
+  align-items: center;
+  background-color: var(--background);
+  position: absolute;
+  top: 0px;
+  left: 0;
+  z-index: 1000;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.subClose {
+  left: 200%;
+  box-shadow: rgb(67 67 67) 0.5rem 0.5rem 1rem 0.5rem;
+}
+
+.buttonCloseSubMenu {
+  width: 2.5rem;
+  height: 2.5rem;
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  border: none;
+  background: none;
+  outline: none;
+  cursor: pointer;
+  position: absolute;
+  top: 2rem;
+  left: 2rem;
+}
+
+.buttonCloseSubMenu::after {
+  content: "\2190";
+  font-size: 2rem;
+  color: var(--blue);
+  text-align: center;
+}
+
+.catName {
+  width: 100%;
+  margin-top: 2rem;
+  font-size: 2rem;
+  font-weight: 500;
+  color: var(--blue);
+  text-align: center;
+}
+
+.subList,
+.manySubs {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  -webkit-box-pack: start;
+  justify-content: flex-start;
+  align-items: flex-start;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.subItem {
+  width: 100%;
+  margin: 1rem 0px;
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+}
+
+.subLink {
+  width: 100%;
+  height: 100%;
+  padding: 1rem 0px 1rem 1rem;
+  display: flex;
+  -webkit-box-pack: start;
+  justify-content: flex-start;
+  -webkit-box-align: center;
+  align-items: center;
+  font-size: 2rem;
+  font-weight: 400;
+  text-transform: capitalize;
+  color: var(--blue);
+  background: none;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+@media (min-width: 750px) {
+  .list {
+    width: 60%;
+    height: 100%;
+    min-height: 50vh;
+    padding: 1rem;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    background-color: var(--background);
+    border-radius: 2rem;
+  }
+
+  .subList {
+    width: 60%;
+    min-height: 100%;
+    margin-top: 2rem;
+    padding: 1rem;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    background-color: var(--background);
+    border-radius: 2rem;
+  }
+}
+
+@media (min-width: 1000px) {
+  .menu {
+    grid-area: 2 / 1 / span 1 / span 3;
+    width: 99vw;
+    height: fit-content;
+    min-height: 1rem;
+    padding: 0px;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    border-radius: 1rem;
+    position: initial;
+    overflow-x: visible;
+  }
+  .menuClose {
+    box-shadow: none;
+  }
+
+  .closeButton,
+  .buttonSubMenu,
+  .buttonCloseSubMenu,
+  .catName {
+    display: none;
+  }
+
+  .list {
+    width: 100%;
+    height: 4rem;
+    min-height: 1rem;
+    padding: 0px;
+    margin: 0px;
+    flex-direction: row;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color: var(--blue);
+    border-radius: 1rem;
+  }
+
+  .itemSession {
+    width: fit-content;
+    margin: 0.2rem 0px;
+    position: absolute;
+    top: 1rem;
+    right: 2rem;
+  }
+
+  .itemSession a {
+    color: var(--blue);
+  }
+
+  .item {
+    margin: 0.2rem 0px;
+    grid-template-columns: 1fr;
+    gap: 0px;
+    position: relative;
+  }
+
+  .item:hover .containerSubMenu {
+    display: flex;
+    height: auto;
+    min-height: 20vh;
+  }
+
+  .item:hover .link {
+    color: var(--yellow);
+  }
+
+  .link {
+    width: 100%;
+    padding: 0.5rem 1rem;
+    color: var(--background);
+    white-space: nowrap;
+    font-size: 1.4rem;
+    -webkit-box-pack: center;
+    justify-content: center;
+  }
+
+  .containerSubMenu {
+    display: none;
+    width: fit-content;
+    min-width: 100%;
+    height: 0px;
+    padding: 0px;
+    top: 100%;
+    left: 0px;
+    box-shadow: rgb(67 67 67) 0.5rem 0.5rem 1rem 0.1rem;
+  }
+
+  .subList {
+    width: 100%;
+    min-width: fit-content;
+    height: 100%;
+    max-height: 80vh;
+    margin-top: 0px;
+  }
+
+  .subItem {
+    margin: 0px;
+    justify-content: center;
+    overflow: visible;
+  }
+
+  .subLink {
+    margin: 0px;
+    padding: 0.5rem 1rem;
+    color: var(--blue);
+    white-space: nowrap;
+    font-size: 1.4rem;
+    opacity: 0.6;
+  }
+
+  .subLink:hover {
+    opacity: 1;
+  }
+
+  .manySubs {
+    width: 100%;
+    min-width: fit-content;
+    height: 100%;
+    max-height: 80vh;
+    margin-top: 0px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+}

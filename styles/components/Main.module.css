@@ -1,0 +1,88 @@
+.MainStyle {
+  width: 100%;
+  padding: 1rem 1rem 0;
+  margin-top: 4.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.MainHome {
+  width: 100%;
+  padding: 1rem;
+  margin-top: 4.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.MainEvery {
+  width: 100%;
+  padding: 1rem;
+  margin-top: 4.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.ItemsIlikedSection {
+  width: 100%;
+  display: flex;
+}
+
+@media (min-width: 750px) {
+  .MainStyle,
+  .MainHome {
+    margin-top: 8rem;
+    min-height: 45vh;
+  }
+  .ItemsIlikedSection {
+    width: 95%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .MainStyle {
+    padding: 2rem 1rem;
+    margin-top: 12rem;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-gap: 1rem;
+    justify-items: center;
+    align-items: start;
+  }
+
+  .MainHome {
+    padding: 2rem 1rem;
+    margin-top: 12rem;
+  }
+
+  .MainEvery {
+    width: 90%;
+    margin: 12rem auto 0;
+  }
+
+  .ItemsIlikedSection {
+    width: 100%;
+  }
+}
+
+@media print {
+  .MainStyle {
+    padding: 2rem 1rem;
+    margin: 0;
+  }
+
+  .MainHome {
+    padding: 1rem;
+    margin: 0;
+    width: 100vw;
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr auto;
+  }
+}
