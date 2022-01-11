@@ -3,7 +3,6 @@ import { connect } from "react-redux";
 import Link from "next/link";
 
 // Data
-// import { articulos } from "../database/articulos";
 
 // Components
 import ShoppingCartItem from "../components/ShoppingCart-Item/ShoppingCartItem";
@@ -64,9 +63,6 @@ const ShoppingCart = ({ myCart }) => {
                   Envío gratis en Xalapa* o puedes recoger en tienda
                 </FreeShipping>
               )}
-              {/* <Link href="/realizar-pago">
-                <PaymentButton>Pagar</PaymentButton>
-              </Link> */}
             </FirstSection>
           )}
           <ArtilcesSection>
@@ -129,12 +125,5 @@ const mapStateToProps = (state) => {
     itemsIliked: state.itemsIliked,
   };
 };
-
-// const mapDispatchToProps = {
-//   setMyCart,
-//   setPricesToCart,
-//   setIitemsIliked,
-//   setDeleteFavorite,
-// };
 
 export default connect(mapStateToProps, null)(ShoppingCart);

@@ -21,7 +21,7 @@ import { Whatsapp } from "../../components/IconsSVG/Whatsapp";
 import { ShoppingBag } from "../../components/IconsSVG/ShoppingBag";
 
 // Data
-import { articulos } from "../../database/articulos";
+import articles from "../../database/articles.json";
 
 // Styled-Components
 import { MainStyled } from "../../styles/Inicio/style";
@@ -68,7 +68,6 @@ const ProductDetails = ({
   setIitemsIliked,
   setDeleteFavorite,
   setMyCart,
-  setPricesToCart,
 }) => {
   const router = useRouter();
   const id = router.query.id;
@@ -95,8 +94,8 @@ const ProductDetails = ({
   }, [id]);
 
   useEffect(() => {
-    if (articulos.length > 0 && id) {
-      const data = articulos.filter((item) => item.articulo_id === id);
+    if (articles.data.length > 0 && id) {
+      const data = articles.data.filter((item) => item.articulo_id === id);
       if (data) {
         setProduct(data[0]);
         setInfoReady(true);
@@ -108,7 +107,7 @@ const ProductDetails = ({
     // Solicita articulos relacionados por nombre
     if (image_url && product) {
       const name = product.name.split(" ")[0];
-      const data = articulos.filter(
+      const data = articles.data.filter(
         (item) => item.name.includes(name) && item.name !== product.name
       );
       setRelatedByName(data.slice(0, 12));
@@ -119,7 +118,7 @@ const ProductDetails = ({
     // Solicita articulos relacionados por categoria
     if (image_url && product) {
       const category = product.category;
-      const data = articulos.filter((item) => item.category === category);
+      const data = articles.data.filter((item) => item.category === category);
       setRelatedByCategory(data.slice(0, 12));
     }
   }, [id, product, image_url]);
@@ -132,7 +131,6 @@ const ProductDetails = ({
       initialQuantity,
       price,
     });
-    // setPricesToCart(price);
   };
 
   // Envia a favoritos

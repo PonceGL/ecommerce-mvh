@@ -3,7 +3,7 @@ import { useRouter } from "next/router";
 import { NextSeo, LocalBusinessJsonLd } from "next-seo";
 
 // Data
-import { articulos } from "../../database/articulos";
+import articles from "../../database/articles.json";
 
 // Components
 import CategorySection from "../../components/Category-Section/CategorySection";
@@ -24,13 +24,13 @@ const Category = () => {
   const [products, setProducts] = useState([]);
 
   useEffect(() => {
-    if (articulos.length > 0 && id) {
-      const data = articulos.filter((item) =>
+    if (articles.data.length > 0 && id) {
+      const data = articles.data.filter((item) =>
         item.description.includes(id.toUpperCase())
       );
       setProducts(data.slice(0, 50));
     }
-  }, [id, articulos]);
+  }, [id, articles]);
 
   return (
     <>

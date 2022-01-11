@@ -5,6 +5,7 @@ import fetch from "isomorphic-unfetch";
 
 // Data
 import { articulos } from "../../database/articulos";
+import articles from "../../database/articles.json";
 
 // Components
 import CategorySection from "../Category-Section/CategorySection";
@@ -16,10 +17,10 @@ const HomeFavorites = ({ itemsIliked }) => {
   const [myFavorites, setmyFavorites] = useState([]);
 
   useEffect(() => {
-    if (articulos.length > 0) {
+    if (articles.data.length > 0) {
       const data = itemsIliked.map(
         (article) =>
-          articulos.filter(
+          articles.data.filter(
             (item) => item.articulo_id === article.articulo_id
           )[0]
       );

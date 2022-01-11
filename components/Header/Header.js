@@ -7,7 +7,7 @@ import MainMenu from "../Main-Menu/MainMenu";
 import { Logo } from "../IconsSVG/Logo";
 import { ButtonMenu } from "../ButtonMenu/ButtonMenu";
 import ButtonCart from "../ButtonCart/ButtonCart";
-import SearchBar from "../Search-Bar/SearchBar";
+import SearchBar from "../Search-Bar";
 import HomeUser from "../Home-User/HomeUser";
 
 // Stiled-Components

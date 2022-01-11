@@ -3,7 +3,8 @@ import { NextSeo, LocalBusinessJsonLd } from "next-seo";
 import fetch from "isomorphic-unfetch";
 
 // Data
-import { articulos } from "../database/articulos";
+// import { articulos } from "../database/articulos";
+import articles from "../database/articles.json";
 
 // Components
 import Slider from "../components/Slider/Slider";
@@ -20,14 +21,19 @@ import { MainStyled, Section, TitleSection } from "../styles/Inicio/style";
 // g2.DESC_GIR2 = 'PUERTAS Y VENTANAS'
 // g2.DESC_GIR2 = 'VENTILACION Y CALEFACCIÓN'
 
-const HomePage = () => {
-  // const [articulos, setArticulos] = useState([]);
+const HomePage = ({
+  BestSellers,
+  LightingItems,
+  FerrItems,
+  DoorsItems,
+  VentilationItems,
+}) => {
   const [SlidersItems, setSlidersItems] = useState([]);
-  const [BestSellers, setBestSellers] = useState([]);
-  const [LightingItems, setLightingItems] = useState([]);
-  const [DoorsItems, setDoorsItems] = useState([]);
-  const [FerrItems, setFerrItems] = useState([]);
-  const [VentilationItems, setVentilationItems] = useState([]);
+  // const [BestSellers, setBestSellers] = useState([]);
+  // const [LightingItems, setLightingItems] = useState([]);
+  // const [FerrItems, setFerrItems] = useState([]);
+  // const [DoorsItems, setDoorsItems] = useState([]);
+  // const [VentilationItems, setVentilationItems] = useState([]);
 
   // Solicita los sliders
   useEffect(async () => {
@@ -35,46 +41,6 @@ const HomePage = () => {
     const { data } = await response.json();
 
     setSlidersItems(data);
-  }, []);
-
-  // Solicita articulos LO MÁS VENDIDOS
-  useEffect(async () => {
-    const response = await fetch(`/api/json/best-sellers`);
-    const { products } = await response.json();
-
-    setBestSellers(products);
-  }, []);
-
-  // Solicita articulos ILUMINACION
-  useEffect(async () => {
-    const response = await fetch(`/api/json/lighting`);
-    const { products } = await response.json();
-
-    setLightingItems(products);
-  }, []);
-
-  // Solicita articulos FERRETERIA
-  useEffect(async () => {
-    const response = await fetch(`/api/json/hardware`);
-    const { products } = await response.json();
-
-    setFerrItems(products);
-  }, []);
-
-  // Solicita articulos PUERTAS Y VENTANAS
-  useEffect(async () => {
-    const response = await fetch(`/api/json/doors-and-windows`);
-    const { products } = await response.json();
-
-    setDoorsItems(products);
-  }, []);
-
-  // Solicita articulos VENTILACION Y CALEFACCIÓN
-  useEffect(async () => {
-    const response = await fetch(`/api/json/ventilation-and-heating`);
-    const { products } = await response.json();
-
-    setVentilationItems(products);
   }, []);
 
   // useEffect(() => {
@@ -106,43 +72,116 @@ const HomePage = () => {
   // }, [articulos]);
 
   return (
-    <MainStyled>
-      {SlidersItems.length > 0 && <Slider sliderItems={SlidersItems} />}
-      {articulos.length === 0 && <p>Consultando...</p>}
+    <>
+      <NextSeo
+        title={`Home Center | Materiales Vasquez Hermanos`}
+        description={`Amplia gama de productos para obra negra, ferretería, muebles, y artículos para el hogar`}
+        canonical="https://www.materialesvasquezhnos.com.mx/"
+        openGraph={{
+          url: `https://www.materialesvasquezhnos.com.mx/`,
+          title: `Home Center | Materiales Vasquez Hermanos`,
+          description: `Amplia gama de productos para obra negra, ferretería, muebles, y artículos para el hogar`,
+          images: [
+            {
+              url: "https://res.cloudinary.com/duibtuerj/image/upload/v1630083340/brand/meta-image_rcclee.jpg",
+              width: 200,
+              height: 200,
+              alt: "Logotipo de Materiales Vasquez Hermanos",
+            },
+          ],
+          site_name: "Materiales Vasquez Hermanos",
+        }}
+        twitter={{
+          handle: "@MaterialesVH",
+          site: "@MaterialesVH",
+          cardType: "summary",
+        }}
+      />
+      <LocalBusinessJsonLd
+        type="HomeGoodsStore"
+        name="Materiales Vasquez Hermanos"
+        description="Amplia gama de productos para obra negra, ferretería, muebles, y artículos para el hogar"
+        url="https://www.materialesvasquezhnos.com.mx/"
+        telephone="+522288401919"
+        address={{
+          streetAddress: "Lázaro Cárdenas 274",
+          addressLocality: "Xalapa",
+          addressRegion: "MEX",
+          postalCode: "91180",
+          addressCountry: "MX",
+        }}
+      />
 
-      <HomeFavorites />
-      {BestSellers.length > 0 && (
-        <Section>
-          <TitleSection>PRODUCTOS MÁS VENDIDOS</TitleSection>
-          <HomeSection data={BestSellers} />
-        </Section>
-      )}
-      {LightingItems.length > 0 && (
-        <Section>
-          <TitleSection>ILUMINACIÓN</TitleSection>
-          <HomeSection data={LightingItems} />
-        </Section>
-      )}
-      {FerrItems.length > 0 && (
-        <Section>
-          <TitleSection>FERRETERIA</TitleSection>
-          <HomeSection data={FerrItems} />
-        </Section>
-      )}
-      {DoorsItems.length > 0 && (
-        <Section>
-          <TitleSection>PUERTAS Y VENTANAS</TitleSection>
-          <HomeSection data={DoorsItems} />
-        </Section>
-      )}
-      {VentilationItems.length > 0 && (
-        <Section>
-          <TitleSection>VENTILACIÓN Y CALEFACCIÓN</TitleSection>
-          <HomeSection data={VentilationItems} />
-        </Section>
-      )}
-    </MainStyled>
+      <MainStyled>
+        {SlidersItems.length > 0 && <Slider sliderItems={SlidersItems} />}
+
+        <HomeFavorites />
+        {BestSellers.length > 0 && (
+          <Section>
+            <TitleSection>PRODUCTOS MÁS VENDIDOS</TitleSection>
+            <HomeSection data={BestSellers} />
+          </Section>
+        )}
+        {LightingItems.length > 0 && (
+          <Section>
+            <TitleSection>ILUMINACIÓN</TitleSection>
+            <HomeSection data={LightingItems} />
+          </Section>
+        )}
+        {FerrItems.length > 0 && (
+          <Section>
+            <TitleSection>FERRETERIA</TitleSection>
+            <HomeSection data={FerrItems} />
+          </Section>
+        )}
+        {DoorsItems.length > 0 && (
+          <Section>
+            <TitleSection>PUERTAS Y VENTANAS</TitleSection>
+            <HomeSection data={DoorsItems} />
+          </Section>
+        )}
+        {VentilationItems.length > 0 && (
+          <Section>
+            <TitleSection>VENTILACIÓN Y CALEFACCIÓN</TitleSection>
+            <HomeSection data={VentilationItems} />
+          </Section>
+        )}
+      </MainStyled>
+    </>
   );
 };
 
 export default HomePage;
+
+export const getStaticProps = async () => {
+  const BestSellers = articles.data.filter(
+    (item) => item.category === "LO MÁS VENDIDOS"
+  );
+
+  const LightingItems = articles.data.filter(
+    (item) => item.main_category === "ILUMINACION"
+  );
+
+  const FerrItems = articles.data.filter(
+    (item) => item.category === "FERRETERIA"
+  );
+
+  const DoorsItems = articles.data.filter(
+    (item) => item.main_category === "PUERTAS Y VENTANAS"
+  );
+
+  const VentilationItems = articles.data.filter(
+    (item) => item.main_category === "VENTILACION Y CALEFACCIÓN"
+  );
+
+  return {
+    props: {
+      BestSellers,
+      LightingItems,
+      FerrItems,
+      DoorsItems,
+      VentilationItems,
+    },
+    revalidate: 10,
+  };
+};
