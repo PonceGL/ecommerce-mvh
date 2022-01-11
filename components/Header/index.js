@@ -29,7 +29,7 @@ const Header = ({ user, myCart }) => {
 
   const router = useRouter();
   const [menuIsOpen, setMenuIsOpen] = useState(false);
-  const [showProfile, setShowProfile] = useState(false);
+  // const [showProfile, setShowProfile] = useState(false);
 
   const handleOpen = () => {
     setMenuIsOpen(!menuIsOpen);
@@ -39,13 +39,13 @@ const Header = ({ user, myCart }) => {
     window.innerWidth < 1000 && setMenuIsOpen(false);
   }, [router.query]);
 
-  useEffect(() => {
-    if (router.pathname !== "/perfil" && user.email !== null) {
-      setShowProfile(true);
-    } else {
-      setShowProfile(false);
-    }
-  }, [router, user]);
+  // useEffect(() => {
+  //   if (router.pathname !== "/perfil" && user.email !== null) {
+  //     setShowProfile(true);
+  //   } else {
+  //     setShowProfile(false);
+  //   }
+  // }, [router, user]);
 
   return (
     <header className={header}>

@@ -1,6 +1,6 @@
-## Materiales Vasquez Hermanoz
+## Materiales Vásquez Hermanoz
 
-**Un [E-commerce](https://www.materialesvasquezhnos.com.mx/) para la empresa hermanos Vasquez.**
+**Un [E-commerce](https://www.materialesvasquezhnos.com.mx/) para la empresa Materiales Hermanoz Vásquez.**
 
 Conexión a base de datos SQL Server.
 La conexión se logró con la librería _rest-mssql-nodejs_

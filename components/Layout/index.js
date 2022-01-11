@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import { connect } from "react-redux";
-import Header from "../Header/Header";
+import Header from "../Header";
 import Footer from "../Footer/Footer";
 import { useRouter } from "next/router";
 

@@ -29,3 +29,9 @@
   font-weight: 700;
   color: var(--light-blue);
 }
+
+@media (min-width: 1000px) {
+  .titleSection {
+    font-size: 2rem;
+  }
+}

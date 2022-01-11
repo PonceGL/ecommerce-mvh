@@ -3,7 +3,6 @@ import { NextSeo, LocalBusinessJsonLd } from "next-seo";
 import fetch from "isomorphic-unfetch";
 
 // Data
-// import { articulos } from "../database/articulos";
 import articles from "../database/articles.json";
 
 // Components
@@ -12,8 +11,8 @@ import HomeSection from "../components/Home-Sections/index";
 
 import HomeFavorites from "../components/Home-Favorites/HomeFavorites";
 
-// Styles
-import { MainStyled, Section, TitleSection } from "../styles/Inicio/style";
+// CSS
+import styles from "@/styles/pages/HomePage.module.css";
 
 // g.DESGIR = 'LO MÁS VENDIDOS'
 // g2.DESC_GIR2 = 'ILUMINACION'
@@ -28,12 +27,9 @@ const HomePage = ({
   DoorsItems,
   VentilationItems,
 }) => {
+  const { homeMain, productSection, titleSection } = styles;
+
   const [SlidersItems, setSlidersItems] = useState([]);
-  // const [BestSellers, setBestSellers] = useState([]);
-  // const [LightingItems, setLightingItems] = useState([]);
-  // const [FerrItems, setFerrItems] = useState([]);
-  // const [DoorsItems, setDoorsItems] = useState([]);
-  // const [VentilationItems, setVentilationItems] = useState([]);
 
   // Solicita los sliders
   useEffect(async () => {
@@ -42,34 +38,6 @@ const HomePage = ({
 
     setSlidersItems(data);
   }, []);
-
-  // useEffect(() => {
-  //   if (articulos.length > 0) {
-  //     // const items = articulos.filter(
-  //     //   (item) => item.category === "LO MÁS VENDIDOS"
-  //     // );
-
-  //     // const lightingArticles = articulos.filter(
-  //     //   (item) => item.main_category === "ILUMINACION"
-  //     // );
-
-  //     // const ferr = articulos.filter((item) => item.category === "FERRETERIA");
-
-  //     // const doorsItems = articulos.filter(
-  //     //   (item) => item.main_category === "PUERTAS Y VENTANAS"
-  //     // );
-
-  //     const ventilationItems = articulos.filter(
-  //       (item) => item.main_category === "VENTILACION Y CALEFACCIÓN"
-  //     );
-
-  //     // setBestSellers(items);
-  //     // setLightingItems(lightingArticles);
-  //     // setDoorsItems(doorsItems);
-  //     // setFerrItems(ferr);
-  //     setVentilationItems(ventilationItems);
-  //   }
-  // }, [articulos]);
 
   return (
     <>
@@ -112,41 +80,41 @@ const HomePage = ({
         }}
       />
 
-      <MainStyled>
+      <main className={homeMain}>
         {SlidersItems.length > 0 && <Slider sliderItems={SlidersItems} />}
 
         <HomeFavorites />
         {BestSellers.length > 0 && (
-          <Section>
-            <TitleSection>PRODUCTOS MÁS VENDIDOS</TitleSection>
+          <section className={productSection}>
+            <h3 className={titleSection}>PRODUCTOS MÁS VENDIDOS</h3>
             <HomeSection data={BestSellers} />
-          </Section>
+          </section>
         )}
         {LightingItems.length > 0 && (
-          <Section>
-            <TitleSection>ILUMINACIÓN</TitleSection>
+          <section className={productSection}>
+            <h3 className={titleSection}>ILUMINACIÓN</h3>
             <HomeSection data={LightingItems} />
-          </Section>
+          </section>
         )}
         {FerrItems.length > 0 && (
-          <Section>
-            <TitleSection>FERRETERIA</TitleSection>
+          <section className={productSection}>
+            <h3 className={titleSection}>FERRETERIA</h3>
             <HomeSection data={FerrItems} />
-          </Section>
+          </section>
         )}
         {DoorsItems.length > 0 && (
-          <Section>
-            <TitleSection>PUERTAS Y VENTANAS</TitleSection>
+          <section className={productSection}>
+            <h3 className={titleSection}>PUERTAS Y VENTANAS</h3>
             <HomeSection data={DoorsItems} />
-          </Section>
+          </section>
         )}
         {VentilationItems.length > 0 && (
-          <Section>
-            <TitleSection>VENTILACIÓN Y CALEFACCIÓN</TitleSection>
+          <section className={productSection}>
+            <h3 className={titleSection}>VENTILACIÓN Y CALEFACCIÓN</h3>
             <HomeSection data={VentilationItems} />
-          </Section>
+          </section>
         )}
-      </MainStyled>
+      </main>
     </>
   );
 };
