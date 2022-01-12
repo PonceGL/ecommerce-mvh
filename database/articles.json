@@ -1,5 +1,5 @@
 {
-  "data": [
+  "data":[
     {
       "articulo_id": "12164",
       "name": "PUNTAS POZIDRIV #3 2 ESTUCHE",
@@ -78,6 +78,726 @@
       "description": "PIJA MULTIUSOS 6 X 5/8",
       "category": "FERRETERIA",
       "main_category": null,
+      "brand": "TRUPER"
+    },
+    {
+      "articulo_id": "22045",
+      "name": "TUBO DE LED T8 18 W BASIC",
+      "description": "TUBO DE LED T8 18 W BASIC",
+      "category": "FERRETERIA",
+      "main_category": "TUBERÍA",
+      "brand": "TRUPER"
+    },
+    {
+      "articulo_id": "16794",
+      "name": "REPUESTO PARA CAUTIN TIPO LAPI",
+      "description": "REPUESTO PARA CAUTIN TIPO LAPIZ",
+      "category": "FERRETERIA",
+      "main_category": "SOLDADURA",
+      "brand": "TRUPER"
+    },
+    {
+      "articulo_id": "15898",
+      "name": "BANDA DE LIJA DE MADERA 4X24 G",
+      "description": "BANDA DE LIJA DE MADERA 4X24 GRANO 80",
+      "category": "FERRETERIA",
+      "main_category": "LIJAS",
+      "brand": "TRUPER"
+    },
+    {
+      "articulo_id": "100851",
+      "name": "CARDA DE COPA ALAMBRE TRENZADA",
+      "description": "CARDA DE COPA ALAMBRE TRENZADA FINO 3\" MULTI ROSA",
+      "category": "FERRETERIA",
+      "main_category": "HERRAMIENTAS MANUALES",
+      "brand": "TRUPER"
+    },
+    {
+      "articulo_id": "12129",
+      "name": "PISTOLA P/PINTAR DE GRAVEDAD H",
+      "description": "PISTOLA P/PINTAR DE GRAVEDAD HVLP VASO PLASTICO",
+      "category": "FERRETERIA",
+      "main_category": "ALBAÑILERIA",
+      "brand": "TRUPER"
+    },
+    {
+      "articulo_id": "12731",
+      "name": "PINTURA EN AEROSOL TRANSPARENT",
+      "description": "PINTURA EN AEROSOL TRANSPARENTE MATE",
+      "category": "FERRETERIA",
+      "main_category": "PINTURAS",
+      "brand": "TRUPER"
+    },
+    {
+      "articulo_id": "14049",
+      "name": "HILO PARA ALBAÑIL 65 M VERDE",
+      "description": "HILO PARA ALBAÑIL 65 M VERDE",
+      "category": "FERRETERIA",
+      "main_category": "ALBAÑILERIA",
+      "brand": "TRUPER"
+    },
+    {
+      "articulo_id": "14051",
+      "name": "HILO PARA ALBAÑIL 65 M NARANJA",
+      "description": "HILO PARA ALBAÑIL 65 M NARANJA",
+      "category": "FERRETERIA",
+      "main_category": "ALBAÑILERIA",
+      "brand": "TRUPER"
+    },
+    {
+      "articulo_id": "19987",
+      "name": "BARRA CAVADORA 1-1/8 1400 MM X",
+      "description": "BARRA CAVADORA 1-1/8 1400 MM X 102 MM",
+      "category": "FERRETERIA",
+      "main_category": "HERRAMIENTAS MANUALES",
+      "brand": "TRUPER"
+    },
+    {
+      "articulo_id": "42416",
+      "name": "VARILLA ROSCADA 5/8 X 1M",
+      "description": "VARILLA ROSCADA 5/8 X 1M",
+      "category": "FERRETERIA",
+      "main_category": "TORNILLERIA",
+      "brand": "TRUPER"
+    },
+    {
+      "articulo_id": "43177",
+      "name": "LUMINARIO LED TIPO PLAFON",
+      "description": "LUMINARIO LED TIPO PLAFON DECORATIVO CUADROS 15 W LUZ DE DIA",
+      "category": "HOGAR",
+      "main_category": "ILUMINACION",
+      "brand": "TRUPER"
+    },
+    {
+      "articulo_id": "12497",
+      "name": "DESBROZADORA GASOLINA 30CC 17\"",
+      "description": "DESBROZADORA GASOLINA 30CC 17\" DES-30R",
+      "category": "HOGAR",
+      "main_category": "JARDINERIA",
+      "brand": "TRUPER"
+    },
+    {
+      "articulo_id": "17645",
+      "name": "HILO PARA DESBROZADORA EN ROLL",
+      "description": "HILO PARA DESBROZADORA EN ROLLO 3 LBS 130\"",
+      "category": "HOGAR",
+      "main_category": "LAVANDERIA",
+      "brand": "TRUPER"
+    },
+    {
+      "articulo_id": "24039",
+      "name": "LINTERNA RECARGABLE DE LED 30",
+      "description": "LINTERNA RECARGABLE DE LED 30 LM GRANEL",
+      "category": "HOGAR",
+      "main_category": "JARDINERIA",
+      "brand": "TRUPER"
+    },
+    {
+      "articulo_id": "42419",
+      "name": "VARILLA ROSCADA 1 X 1M PZAS",
+      "description": "VARILLA ROSCADA 1 X 1M PZAS",
+      "category": "FERRETERIA",
+      "main_category": "TORNILLERIA",
+      "brand": "TRUPER"
+    },
+    {
+      "articulo_id": "12159",
+      "name": "PUNTAS POZIDRIV#3 1\" ESTUCHE 5",
+      "description": "PUNTAS POZIDRIV#3 1\" ESTUCHE 5 PZAS",
+      "category": "FERRETERIA",
+      "main_category": "DESARMADORES",
+      "brand": "TRUPER"
+    },
+    {
+      "articulo_id": "101741",
+      "name": "JUEGO DE SUJETADORES C/MATRACA",
+      "description": "JUEGO DE SUJETADORES C/MATRACA CARGA MAX 1000 KG 4",
+      "category": "FERRETERIA",
+      "main_category": "SEGURIDAD",
+      "brand": "TRUPER"
+    },
+    {
+      "articulo_id": "101934",
+      "name": "LENTES DE SEGURIDAD MICA CLARA",
+      "description": "LENTES DE SEGURIDAD MICA CLARA CON ANTIEMPAÑO",
+      "category": "FERRETERIA",
+      "main_category": "SEGURIDAD",
+      "brand": "TRUPER"
+    },
+    {
+      "articulo_id": "102101",
+      "name": "BIELDO PARA PAJA 5 DIENTES MAN",
+      "description": "BIELDO PARA PAJA 5 DIENTES MANGO DE ACERO 48\"",
+      "category": "HOGAR",
+      "main_category": "JARDINERIA",
+      "brand": "TRUPER"
+    },
+    {
+      "articulo_id": "15465",
+      "name": "ANZUELO PARA PESCA #5 100 PZAS",
+      "description": "ANZUELO PARA PESCA #5 100 PZAS",
+      "category": "FERRETERIA",
+      "main_category": "FERRETERÍA GENERAL",
+      "brand": "TRUPER"
+    },
+    {
+      "articulo_id": "18410",
+      "name": "CORTADOR RAMAS ALTAS C/MGO F.V",
+      "description": "CORTADOR RAMAS ALTAS C/MGO F.VIDRIO 12\"",
+      "category": "FERRETERIA",
+      "main_category": "HERRAMIENTAS MANUALES",
+      "brand": "TRUPER"
+    },
+    {
+      "articulo_id": "28057",
+      "name": "LAMPARA LED A19 W LUZ DE DIA",
+      "description": "LAMPARA LED A19 W LUZ DE DIA",
+      "category": "HOGAR",
+      "main_category": "ILUMINACION",
+      "brand": "TRUPER"
+    },
+    {
+      "articulo_id": "28236",
+      "name": "ESMERILADORA ANGULAR 4-1/2",
+      "description": "ESMERILADORA ANGULAR 4-1/2 550W",
+      "category": "FERRETERIA",
+      "main_category": "MÁQUINAS PORTÁTILES",
+      "brand": "TRUPER"
+    },
+    {
+      "articulo_id": "19986",
+      "name": "BARRA CAVADORA 1-1/8 1300 MM X",
+      "description": "BARRA CAVADORA 1-1/8 1300 MM X 102",
+      "category": "FERRETERIA",
+      "main_category": "HERRAMIENTAS MANUALES",
+      "brand": "TRUPER"
+    },
+    {
+      "articulo_id": "41925",
+      "name": "LONA 5.0 X 6.0 M AZUL ULTRA TR",
+      "description": "LONA 5.0 X 6.0 M AZUL ULTRA TRUPER",
+      "category": "FERRETERIA",
+      "main_category": "LONAS",
+      "brand": "TRUPER"
+    },
+    {
+      "articulo_id": "100679",
+      "name": "JUEGO DE PUÑOS PARA CARRETILLA",
+      "description": "JUEGO DE PUÑOS PARA CARRETILLA TRUPER",
+      "category": "FERRETERIA",
+      "main_category": "CARRETILLAS",
+      "brand": "TRUPER"
+    },
+    {
+      "articulo_id": "22659",
+      "name": "MARTILLO DE BOLA 24 OZ",
+      "description": "MARTILLO DE BOLA 24 OZ",
+      "category": "FERRETERIA",
+      "main_category": "HERRAMIENTAS MANUALES",
+      "brand": "TRUPER"
+    },
+    {
+      "articulo_id": "100376",
+      "name": "MALETA PORTAHERAMIENTAS DE 14",
+      "description": "MALETA PORTAHERAMIENTAS DE 14 PRETUL",
+      "category": "FERRETERIA",
+      "main_category": "ACCESORIOS DE HERRAMIENTA",
+      "brand": "TRUPER"
+    },
+    {
+      "articulo_id": "101272",
+      "name": "MALETIN PORTAHERAMIENTAS 12\"",
+      "description": "MALETIN PORTAHERAMIENTAS 12\"",
+      "category": "FERRETERIA",
+      "main_category": "ACCESORIOS DE HERRAMIENTA",
+      "brand": "TRUPER"
+    },
+    {
+      "articulo_id": "12773",
+      "name": "FLEXOMETRO COMPRACTO GRIP 5.5",
+      "description": "FLEXOMETRO COMPRACTO GRIP 5.5 CINTA 25MM",
+      "category": "FERRETERIA",
+      "main_category": "FLEXOMETROS",
+      "brand": "TRUPER"
+    },
+    {
+      "articulo_id": "16798",
+      "name": "LINTERNA PARA BICICLETA DELANT",
+      "description": "LINTERNA PARA BICICLETA DELANTERA Y TRASERA KIT 2",
+      "category": "HOGAR",
+      "main_category": "JARDINERIA",
+      "brand": "TRUPER"
+    },
+    {
+      "articulo_id": "17679",
+      "name": "PODADORA MANUAL 14 TRUPER",
+      "description": "PODADORA MANUAL 14 TRUPER",
+      "category": "HOGAR",
+      "main_category": "JARDINERIA",
+      "brand": "TRUPER"
+    },
+    {
+      "articulo_id": "17853",
+      "name": "ZAPATO INDUSTRIAL CON CASQUILL",
+      "description": "ZAPATO INDUSTRIAL CON CASQUILLO #28 CAFE",
+      "category": "FERRETERIA",
+      "main_category": "SEGURIDAD",
+      "brand": "TRUPER"
+    },
+    {
+      "articulo_id": "24990",
+      "name": "CONTADOR MANUEL 10 MIL",
+      "description": "CONTADOR MANUEL 10 MIL",
+      "category": "FERRETERIA",
+      "main_category": "FERRETERÍA GENERAL",
+      "brand": "TRUPER"
+    },
+    {
+      "articulo_id": "28049",
+      "name": "CERRADURA ESFERA CILINDRO ENTR",
+      "description": "CERRADURA ESFERA CILINDRO ENTRADA ANTIGUO",
+      "category": "FERRETERIA",
+      "main_category": "CERRAJERIA",
+      "brand": "TRUPER"
+    },
+    {
+      "articulo_id": "15305",
+      "name": "ESPUMA EXPANSIVA 750 ML",
+      "description": "ESPUMA EXPANSIVA 750 ML",
+      "category": "FERRETERIA",
+      "main_category": "ACEITES Y ESPUMAS",
+      "brand": "TRUPER"
+    },
+    {
+      "articulo_id": "40141",
+      "name": "CAJA DE CONTACTO PARA CANALETA",
+      "description": "CAJA DE CONTACTO PARA CANALETA 3 X 5 BLANCA",
+      "category": "FERRETERIA",
+      "main_category": "ELECTRICO",
+      "brand": "TRUPER"
+    },
+    {
+      "articulo_id": "101667",
+      "name": "BOMBA DE PEDAL 60 PSI BOPE-60",
+      "description": "BOMBA DE PEDAL 60 PSI BOPE-60",
+      "category": "FERRETERIA",
+      "main_category": "BOMBAS Y PRESURIZADORAS",
+      "brand": "TRUPER"
+    },
+    {
+      "articulo_id": "100149",
+      "name": "MANGUERA 3/4 SUPER REFORZADA 4",
+      "description": "MANGUERA 3/4 SUPER REFORZADA 4 CAPAAS CONEXIONES METAL 30 M",
+      "category": "FERRETERIA",
+      "main_category": "MANGUERAS",
+      "brand": "TRUPER"
+    },
+    {
+      "articulo_id": "40079",
+      "name": "MANGUERA FLEXIBLE NEGRA PVC 3/",
+      "description": "MANGUERA FLEXIBLE NEGRA PVC 3/8 250 PSI CON CONEXIONES 5M",
+      "category": "FERRETERIA",
+      "main_category": "MANGUERAS",
+      "brand": "TRUPER"
+    },
+    {
+      "articulo_id": "500440",
+      "name": "TINACO RESISTEC B GRIS 450 LTS",
+      "description": "TINACO RESISTEC BICAPA GRIS 450 LTS",
+      "category": "FERRETERIA",
+      "main_category": "TINACOS Y CISTERNAS",
+      "brand": "ROTOPLAS"
+    },
+    {
+      "articulo_id": "500441",
+      "name": "TINACO RESISTEC BICAPA GRIS 75",
+      "description": "TINACO RESISTEC BICAPA GRIS 750 LTS",
+      "category": "FERRETERIA",
+      "main_category": "TINACOS Y CISTERNAS",
+      "brand": "ROTOPLAS"
+    },
+    {
+      "articulo_id": "500442",
+      "name": "TINACO RESISTEC BICAPA GRIS 11",
+      "description": "TINACO RESISTEC BICAPA GRIS 1100 LTS",
+      "category": "FERRETERIA",
+      "main_category": "TINACOS Y CISTERNAS",
+      "brand": "ROTOPLAS"
+    },
+    {
+      "articulo_id": "101543",
+      "name": "CULTIVAVOR FORJADO PARA JARDIN",
+      "description": "CULTIVAVOR FORJADO PARA JARDIN 5 DIENTES MANGO 60",
+      "category": "HOGAR",
+      "main_category": "JARDINERIA",
+      "brand": "TRUPER"
+    },
+    {
+      "articulo_id": "12152",
+      "name": "PUNTAS PHILLIPS #1.3 ESTUCHE C",
+      "description": "PUNTAS PHILLIPS #1.3 ESTUCHE CON 5 PZAS",
+      "category": "FERRETERIA",
+      "main_category": "DESARMADORES",
+      "brand": "TRUPER"
+    },
+    {
+      "articulo_id": "12173",
+      "name": "PUNTAS PLANA 9/32 2\" ESTUCHE 5",
+      "description": "PUNTAS PLANA 9/32 2\" ESTUCHE 5 PZAS",
+      "category": "FERRETERIA",
+      "main_category": "DESARMADORES",
+      "brand": "TRUPER"
+    },
+    {
+      "articulo_id": "488169",
+      "name": "ADEBLOK MELON 40 KG",
+      "description": "ADEBLOK MELON 40 KG",
+      "category": "ACABADOS",
+      "main_category": "ADHESIVOS Y BOQUILLAS",
+      "brand": "LOWE´S"
+    },
+    {
+      "articulo_id": "13656",
+      "name": "LLAVE COMBINADA MATRACA REVERS",
+      "description": "LLAVE COMBINADA MATRACA REVERSIBLE 8 X 136 MM",
+      "category": "FERRETERIA",
+      "main_category": "LLAVES Y ACCESORIOS",
+      "brand": "TRUPER"
+    },
+    {
+      "articulo_id": "13664",
+      "name": "LLAVE COMBINADA MATRACA REVERS",
+      "description": "LLAVE COMBINADA MATRACA REVERSIBLE 10X154",
+      "category": "FERRETERIA",
+      "main_category": "LLAVES Y ACCESORIOS",
+      "brand": "TRUPER"
+    },
+    {
+      "articulo_id": "13699",
+      "name": "LLAVE COMBINADA MATRACA REVERS",
+      "description": "LLAVE COMBINADA MATRACA REVERSIBLE 14 X 188 MM",
+      "category": "FERRETERIA",
+      "main_category": "LLAVES Y ACCESORIOS",
+      "brand": "TRUPER"
+    },
+    {
+      "articulo_id": "14646",
+      "name": "CUCHILLA 18 PARA PODADORA",
+      "description": "CUCHILLA 18 PARA PODADORA",
+      "category": "HOGAR",
+      "main_category": "JARDINERIA",
+      "brand": "TRUPER"
+    },
+    {
+      "articulo_id": "14722",
+      "name": "MALACATE CON MANIVELA 270 KG",
+      "description": "MALACATE CON MANIVELA 270 KG",
+      "category": "FERRETERIA",
+      "main_category": "SEGURIDAD",
+      "brand": "TRUPER"
+    },
+    {
+      "articulo_id": "14648",
+      "name": "CUCHILLA 22 PARA PODADORA",
+      "description": "CUCHILLA 22 PARA PODADORA",
+      "category": "HOGAR",
+      "main_category": "JARDINERIA",
+      "brand": "TRUPER"
+    },
+    {
+      "articulo_id": "100900",
+      "name": "SOLDADORA INVERSIORA MINI 100",
+      "description": "SOLDADORA INVERSIORA MINI 100 A 127 V",
+      "category": "FERRETERIA",
+      "main_category": "SOLDADURA",
+      "brand": "TRUPER"
+    },
+    {
+      "articulo_id": "101544",
+      "name": "ESMERILADORA 4-1/2 850 W C/5 D",
+      "description": "ESMERILADORA 4-1/2 850 W C/5 DISCO CORTE Y 5 DESBASTE",
+      "category": "FERRETERIA",
+      "main_category": "MÁQUINAS PORTÁTILES",
+      "brand": "TRUPER"
+    },
+    {
+      "articulo_id": "19621",
+      "name": "JUEGO DE 6 DESARMADORES MANGO",
+      "description": "JUEGO DE 6 DESARMADORES MANGO CONFORD GRIP",
+      "category": "FERRETERIA",
+      "main_category": "DESARMADORES",
+      "brand": "TRUPER"
+    },
+    {
+      "articulo_id": "21189",
+      "name": "JUEGO DE 9 DADOS MILIMETRICOS",
+      "description": "JUEGO DE 9 DADOS MILIMETRICOS",
+      "category": "FERRETERIA",
+      "main_category": "DADOS",
+      "brand": "TRUPER"
+    },
+    {
+      "articulo_id": "000142",
+      "name": "IMPERMEABILIZANTE 3 AÑOS TERRA",
+      "description": "IMPERMEABILIZANTE 3 AÑOS TERRACOTA GACOFLEX 19 L",
+      "category": "ACABADOS",
+      "main_category": "IMPERMEABILIZANTES",
+      "brand": "TERRACOTA"
+    },
+    {
+      "articulo_id": "000143",
+      "name": "IMPERMEABILIZANTE 5 AÑOS TERRA",
+      "description": "IMPERMEABILIZANTE 5 AÑOS TERRACOTA GACOFLEX 19 L",
+      "category": "ACABADOS",
+      "main_category": "IMPERMEABILIZANTES",
+      "brand": "TERRACOTA"
+    },
+    {
+      "articulo_id": "000144",
+      "name": "IMPERMEABILIZANTE 7 AÑOS TERRA",
+      "description": "IMPERMEABILIZANTE 7 AÑOS TERRACOTA GACOFLEX 19 L",
+      "category": "MATERIALES PARA CONSTRUCCION",
+      "main_category": "IMPERMEABILIZANTES",
+      "brand": "TERRACOTA"
+    },
+    {
+      "articulo_id": "17087",
+      "name": "BASCULA MECANICA COLGANTE 10",
+      "description": "BASCULA MECANICA COLGANTE 10 TRUPER",
+      "category": "HOGAR",
+      "main_category": "BASCULAS",
+      "brand": "TRUPER"
+    },
+    {
+      "articulo_id": "100198",
+      "name": "SERRUCHO PLEGABLE DE 10\" HOJA",
+      "description": "SERRUCHO PLEGABLE DE 10\" HOJA CURVA",
+      "category": "FERRETERIA",
+      "main_category": "PINZAS Y CORTES",
+      "brand": "TRUPER"
+    },
+    {
+      "articulo_id": "15136",
+      "name": "LENTES DE SEGURIDAD AJUSTABLES",
+      "description": "LENTES DE SEGURIDAD AJUSTABLES MICA AZUL CLASSIC",
+      "category": "FERRETERIA",
+      "main_category": "SEGURIDAD",
+      "brand": "TRUPER"
+    },
+    {
+      "articulo_id": "15137",
+      "name": "LENTES DE SEGURIDAD AJUSTABLES",
+      "description": "LENTES DE SEGURIDAD AJUSTABLES MICA AMBAR",
+      "category": "FERRETERIA",
+      "main_category": "SEGURIDAD",
+      "brand": "TRUPER"
+    },
+    {
+      "articulo_id": "100293",
+      "name": "LENTES DE SEGURIDAD GRIS CON B",
+      "description": "LENTES DE SEGURIDAD GRIS CON BANDA GRIS CON BANDA",
+      "category": "FERRETERIA",
+      "main_category": "SEGURIDAD",
+      "brand": "TRUPER"
+    },
+    {
+      "articulo_id": "13889",
+      "name": "NAVAJA ABATIBLE MANGO DE MADER",
+      "description": "NAVAJA ABATIBLE MANGO DE MADERA 3 1/2",
+      "category": "FERRETERIA",
+      "main_category": "PINZAS Y CORTES",
+      "brand": "TRUPER"
+    },
+    {
+      "articulo_id": "23204",
+      "name": "MANGUERA PARA GAS ALUMINIO 5/1",
+      "description": "MANGUERA PARA GAS ALUMINIO 5/16 X 200 CM",
+      "category": "FERRETERIA",
+      "main_category": "MANGUERAS",
+      "brand": "TRUPER"
+    },
+    {
+      "articulo_id": "28152",
+      "name": "JGO DE 3 CEPILLOS PARA TALADRO",
+      "description": "JGO DE 3 CEPILLOS PARA TALADRO",
+      "category": "FERRETERIA",
+      "main_category": "ALBAÑILERIA",
+      "brand": "TRUPER"
+    },
+    {
+      "articulo_id": "15782",
+      "name": "CARBONES DE REPUESTO PARA ROTO",
+      "description": "CARBONES DE REPUESTO PARA ROTOMARTILLO ROEL-20N",
+      "category": "FERRETERIA",
+      "main_category": "HERRAMIENTAS MANUALES",
+      "brand": "TRUPER"
+    },
+    {
+      "articulo_id": "17109",
+      "name": "CARBONES DE REPUESTO PARA ROTO",
+      "description": "CARBONES DE REPUESTO PARA ROTOMARTILLO ROTO 1/2N7",
+      "category": "FERRETERIA",
+      "main_category": "HERRAMIENTAS MANUALES",
+      "brand": "TRUPER"
+    },
+    {
+      "articulo_id": "29960",
+      "name": "SOLDADORA INVERSION 160 A 127/",
+      "description": "SOLDADORA INVERSION 160 A 127/",
+      "category": "FERRETERIA",
+      "main_category": "SOLDADURA",
+      "brand": "TRUPER"
+    },
+    {
+      "articulo_id": "100121",
+      "name": "SERRUCHO DE PODA 13 HOJA CURVA",
+      "description": "SERRUCHO DE PODA 13 HOJA CURVA 7DPP",
+      "category": "FERRETERIA",
+      "main_category": "PINZAS Y CORTES",
+      "brand": "TRUPER"
+    },
+    {
+      "articulo_id": "101798",
+      "name": "JUEGO DE BROCAS PARA VIDRIO Y",
+      "description": "JUEGO DE BROCAS PARA VIDRIO Y AZULEJO 4 PZAS",
+      "category": "FERRETERIA",
+      "main_category": "BROCAS",
+      "brand": "TRUPER"
+    },
+    {
+      "articulo_id": "11268",
+      "name": "BROCA CON SISTEMA DIRECTO DE I",
+      "description": "BROCA CON SISTEMA DIRECTO DE INSERCION",
+      "category": "FERRETERIA",
+      "main_category": "BROCAS",
+      "brand": "TRUPER"
+    },
+    {
+      "articulo_id": "14046",
+      "name": "HILO ALBAÑIL 65 M ROJO",
+      "description": "HILO ALBAÑIL 65 M ROJO",
+      "category": "FERRETERIA",
+      "main_category": "ALBAÑILERIA",
+      "brand": "TRUPER"
+    },
+    {
+      "articulo_id": "14048",
+      "name": "HILO PARA ALBAÑIL 65 M AZUL",
+      "description": "HILO PARA ALBAÑIL 65 M AZUL",
+      "category": "FERRETERIA",
+      "main_category": "ALBAÑILERIA",
+      "brand": "TRUPER"
+    },
+    {
+      "articulo_id": "15378",
+      "name": "BROCA DE ALTA VELOCIDAD OXIDO",
+      "description": "BROCA DE ALTA VELOCIDAD OXIDO NEGRO 7/16",
+      "category": "FERRETERIA",
+      "main_category": "BROCAS",
+      "brand": "TRUPER"
+    },
+    {
+      "articulo_id": "15392",
+      "name": "BROCA DE ALTA VELOCIDAD OXIDO",
+      "description": "BROCA DE ALTA VELOCIDAD OXIDO NEGRO 5/8",
+      "category": "FERRETERIA",
+      "main_category": "BROCAS",
+      "brand": "TRUPER"
+    },
+    {
+      "articulo_id": "15422",
+      "name": "SIERRA CALADORA PROFESIONAL 65",
+      "description": "SIERRA CALADORA PROFESIONAL 650 W",
+      "category": "FERRETERIA",
+      "main_category": "MÁQUINAS PORTÁTILES",
+      "brand": "TRUPER"
+    },
+    {
+      "articulo_id": "17942",
+      "name": "DISCO DE LIJA ROJO ORBITAL 5 G",
+      "description": "DISCO DE LIJA ROJO ORBITAL 5 GRANO 80 8 ORIFICIOS",
+      "category": "FERRETERIA",
+      "main_category": "DISCOS",
+      "brand": "TRUPER"
+    },
+    {
+      "articulo_id": "100174",
+      "name": "CAVADOR MANGO FIBRA DE VIDRIO",
+      "description": "CAVADOR MANGO FIBRA DE VIDRIO 45\"",
+      "category": "FERRETERIA",
+      "main_category": "HERRAMIENTAS MANUALES",
+      "brand": "TRUPER"
+    },
+    {
+      "articulo_id": "100197",
+      "name": "SERRUCHO PLEGABLE DE 7\" HOJA R",
+      "description": "SERRUCHO PLEGABLE DE 7\" HOJA RECTA",
+      "category": "FERRETERIA",
+      "main_category": "PINZAS Y CORTES",
+      "brand": "TRUPER"
+    },
+    {
+      "articulo_id": "11234",
+      "name": "CUCHARA PARA ALBAÑIL TIPO FILA",
+      "description": "CUCHARA PARA ALBAÑIL TIPO FILADELFIA 11\" MANGO BIMATERIAL",
+      "category": "FERRETERIA",
+      "main_category": "LLANAS Y CUCHARAS",
+      "brand": "TRUPER"
+    },
+    {
+      "articulo_id": "11590",
+      "name": "CARDA CIRC. P/TALAD",
+      "description": "CARDA CIRC. P/TALAD",
+      "category": "FERRETERIA",
+      "main_category": "HERRAMIENTAS MANUALES",
+      "brand": "TRUPER"
+    },
+    {
+      "articulo_id": "11747",
+      "name": "FLEXOMETRO CINTA NEGRA 8M CINT",
+      "description": "FLEXOMETRO CINTA NEGRA 8M CINTA 27MM",
+      "category": "FERRETERIA",
+      "main_category": "FLEXOMETROS",
+      "brand": "TRUPER"
+    },
+    {
+      "articulo_id": "11881",
+      "name": "ESPATULA TAPIZADORA 12\" TRUPER",
+      "description": "ESPATULA TAPIZADORA 12\" TRUPER",
+      "category": "FERRETERIA",
+      "main_category": "ALBAÑILERIA",
+      "brand": "TRUPER"
+    },
+    {
+      "articulo_id": "12752",
+      "name": "BROCA PARA CONCRETO 3/16 X 4 E",
+      "description": "BROCA PARA CONCRETO 3/16 X 4 EN BLISTER",
+      "category": "FERRETERIA",
+      "main_category": "BROCAS",
+      "brand": "TRUPER"
+    },
+    {
+      "articulo_id": "12890",
+      "name": "LINTERNA DE MIINERO 300 LUMENE",
+      "description": "LINTERNA DE MIINERO 300 LUMENES 1 LED RECARGABLE",
+      "category": "HOGAR",
+      "main_category": "JARDINERIA",
+      "brand": "TRUPER"
+    },
+    {
+      "articulo_id": "14054",
+      "name": "HILO PARA ALBAÑIL 165 M ROJO",
+      "description": "HILO PARA ALBAÑIL 165 M ROJO",
+      "category": "FERRETERIA",
+      "main_category": "ALBAÑILERIA",
+      "brand": "TRUPER"
+    },
+    {
+      "articulo_id": "16538",
+      "name": "MARRO OCTAGON 8 LBS MANGO FIBR",
+      "description": "MARRO OCTAGON 8 LBS MANGO FIBRA DE VIDRIO",
+      "category": "FERRETERIA",
+      "main_category": "HERRAMIENTAS MANUALES",
       "brand": "TRUPER"
     }
   ]
