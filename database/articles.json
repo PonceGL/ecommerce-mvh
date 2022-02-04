@@ -4417,36 +4417,12 @@
       "brand": "LOWE´S"
     },
     {
-      "articulo_id": "16629",
-      "name": "CADENA RPSTO P/MOTOSIERRA ELEC",
-      "description": "CADENA RPSTO P/MOTOSIERRA ELEC 18\"",
-      "category": "FERRETERIA",
-      "main_category": "CADENAS",
-      "brand": "TRUPER"
-    },
-    {
-      "articulo_id": "17643",
-      "name": "HILO DESBROZ 0.095 262 MTS HTR",
-      "description": "HILO DESBROZ 0.095 262 MTS HTR-395",
-      "category": "FERRETERIA",
-      "main_category": null,
-      "brand": "TRUPER"
-    },
-    {
       "articulo_id": "1084007",
       "name": "ONE PIECE THOR BLANCO FONTIBRE",
       "description": "ONE PIECE THOR BLANCO FONTIBRE C/ ASIENTO CIERRE LENTO 4.8L DESC 700 GRS",
       "category": "BAÑOS",
       "main_category": "SANITARIOS",
       "brand": "FONTIBRE"
-    },
-    {
-      "articulo_id": "19700",
-      "name": "JUEGO DE 2 SEGUETAS BIMETALICA",
-      "description": "JUEGO DE 2 SEGUETAS BIMETALICAS PARA ARCO CON 24 DIENTES POR PULGADA",
-      "category": "FERRETERIA",
-      "main_category": null,
-      "brand": "TRUPER"
     },
     {
       "articulo_id": "100080685",
@@ -7305,14 +7281,6 @@
       "brand": "LOWE´S"
     },
     {
-      "articulo_id": "816145",
-      "name": "CARTUCHO AHEDO 60 AMP 250V 1PZ",
-      "description": "CARTUCHO AHEDO 60 AMP 250V 1PZ",
-      "category": "FERRETERIA",
-      "main_category": "FONTANERIA",
-      "brand": "LOWE´S"
-    },
-    {
       "articulo_id": "817813",
       "name": "CLIPS DE PASADOR .177X3-1/4",
       "description": "CLIPS DE PASADOR .177X3-1/4",
@@ -8033,14 +8001,6 @@
       "brand": "DISSTON"
     },
     {
-      "articulo_id": "010036",
-      "name": "CINCEL 1/2X12P DISS 168-15",
-      "description": "CINCEL 1/2X12P DISS 168-15",
-      "category": "FERRETERIA",
-      "main_category": "HERRAMIENTAS MANUALES",
-      "brand": "DISSTON"
-    },
-    {
       "articulo_id": "0101005",
       "name": "TUBO CONDUIT LIG. 2 X",
       "description": "TUBO CONDUIT LIG. 2 X 3M",
@@ -8439,14 +8399,6 @@
       "category": "FERRETERIA",
       "main_category": "ELECTRICO",
       "brand": "POLIFLEX"
-    },
-    {
-      "articulo_id": "011017",
-      "name": "PROMO PLAYERA POLIFLEX",
-      "description": "PROMO PLAYERA POLIFLEX",
-      "category": "FERRETERIA",
-      "main_category": null,
-      "brand": "PROMOCIONALES"
     },
     {
       "articulo_id": "017014",
@@ -20561,14 +20513,6 @@
       "brand": "LOWE´S"
     },
     {
-      "articulo_id": "101568076",
-      "name": "ESPATULA RIGIDA BELLOTA MANGO",
-      "description": "ESPATULA RIGIDA BELLOTA MANGO DE MADERA DE 5 PULGADAS",
-      "category": "FERRETERIA",
-      "main_category": "LLANAS Y CUCHARAS",
-      "brand": "LOWE´S"
-    },
-    {
       "articulo_id": "101568092",
       "name": "ESPATULA TAPIZADORA BELLOTA DE",
       "description": "ESPATULA TAPIZADORA BELLOTA DE 8 PULGADAS",
@@ -31721,14 +31665,6 @@
       "brand": "LOWE´S"
     },
     {
-      "articulo_id": "175521",
-      "name": "ARCO SEGUETA FIJO ECONOMICO 12",
-      "description": "ARCO SEGUETA FIJO ECONOMICO 12",
-      "category": "FERRETERIA",
-      "main_category": "FERRETERÍA GENERAL",
-      "brand": "LOWE´S"
-    },
-    {
       "articulo_id": "175666",
       "name": "ADHESIVO MONTACK CEYS TRANS 10",
       "description": "ADHESIVO MONTACK CEYS TRANS 100ML",
@@ -37582,14 +37518,6 @@
       "description": "SAPITO UNA SOLA PZA CADENA A.I.",
       "category": "FERRETERIA",
       "main_category": "FONTANERIA",
-      "brand": "LOWE´S"
-    },
-    {
-      "articulo_id": "974361",
-      "name": "ESCUADRA FALSA PROFESIONAL 8\"",
-      "description": "ESCUADRA FALSA PROFESIONAL 8\"",
-      "category": "FERRETERIA",
-      "main_category": "HERRAMIENTAS MANUALES",
       "brand": "LOWE´S"
     },
     {
@@ -44809,22 +44737,6 @@
       "brand": "NACOBRE"
     },
     {
-      "articulo_id": "17660",
-      "name": "PRENSA NODULAR TRUP-3 TNT-3",
-      "description": "PRENSA NODULAR TRUP-3 TNT-3",
-      "category": "FERRETERIA",
-      "main_category": null,
-      "brand": "TRUPER"
-    },
-    {
-      "articulo_id": "17664",
-      "name": "PRENSA NODULAR TRUP-8 PNT-8",
-      "description": "PRENSA NODULAR TRUP-8 PNT-8",
-      "category": "FERRETERIA",
-      "main_category": null,
-      "brand": "TRUPER"
-    },
-    {
       "articulo_id": "TL51",
       "name": "TUBO COND.PVC T LIG.DE2",
       "description": "TUBO COND.PVC T LIG.DE2",
@@ -48671,14 +48583,6 @@
       "category": "ACABADOS",
       "main_category": "PISOS CERAMICOS",
       "brand": "LAMOSA"
-    },
-    {
-      "articulo_id": "010045",
-      "name": "CINCEL 3/4X6P 168-23",
-      "description": "CINCEL 3/4X6P 168-23",
-      "category": "FERRETERIA",
-      "main_category": "HERRAMIENTAS MANUALES",
-      "brand": "TRUPER"
     },
     {
       "articulo_id": "000531",
