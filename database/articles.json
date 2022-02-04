@@ -4409,92 +4409,12 @@
       "brand": "AKSI"
     },
     {
-      "articulo_id": "10390",
-      "name": "PORTA MANGUERA PLASTICO TRUPER",
-      "description": "PORTA MANGUERA PLASTICO TRUPER",
-      "category": "FERRETERIA",
-      "main_category": "FERRETERÍA GENERAL",
-      "brand": "LOWE´S"
-    },
-    {
-      "articulo_id": "10796",
-      "name": "SEGUETA SIERRA SABLE TRUPER 18",
-      "description": "SEGUETA SIERRA SABLE TRUPER 18 DPP DE 6 PULGADAS",
-      "category": "FERRETERIA",
-      "main_category": "HERRAMIENTAS MANUALES",
-      "brand": "LOWE´S"
-    },
-    {
-      "articulo_id": "11453",
-      "name": "BROCA PARA ROUTER TRUPER RECTA",
-      "description": "BROCA PARA ROUTER TRUPER RECTA 2 FILOS DE 1/4 PULGADA LARGA",
-      "category": "FERRETERIA",
-      "main_category": "BROCAS",
-      "brand": "TRUPER"
-    },
-    {
-      "articulo_id": "12067",
-      "name": "GABINETE METALICO MOVIL TRUPER",
-      "description": "GABINETE METALICO MOVIL TRUPER DE 6 CAJONES CAPACIDAD 130 KG",
-      "category": "FERRETERIA",
-      "main_category": null,
-      "brand": "LOWE´S"
-    },
-    {
-      "articulo_id": "12355",
-      "name": "CUBRENUCA PARA CASCO TRUPER CO",
-      "description": "CUBRENUCA PARA CASCO TRUPER COLOR NARANJA DE30 CENTIMETROS",
-      "category": "FERRETERIA",
-      "main_category": null,
-      "brand": "TRUPER"
-    },
-    {
-      "articulo_id": "12356",
-      "name": "OREJERA AJUSTABLE PARA CASCO T",
-      "description": "OREJERA AJUSTABLE PARA CASCO TRUPER",
-      "category": "FERRETERIA",
-      "main_category": "SEGURIDAD",
-      "brand": "LOWE´S"
-    },
-    {
-      "articulo_id": "13123",
-      "name": "CONO DE PRECAUCION DE PVC DE 7",
-      "description": "CONO DE PRECAUCION DE PVC DE 70 CM CON REFLEJANTE TRUPER",
-      "category": "FERRETERIA",
-      "main_category": null,
-      "brand": "TRUPER"
-    },
-    {
-      "articulo_id": "14176",
-      "name": "JGO DADOS CUADRO TRUPER 1/2 10",
-      "description": "JGO DADOS CUADRO TRUPER 1/2 10P",
-      "category": "FERRETERIA",
-      "main_category": "DADOS",
-      "brand": "TRUPER"
-    },
-    {
       "articulo_id": "15700",
       "name": "LLAVE ESPANOLA 13/16 X 7/8",
       "description": "LLAVE ESPANOLA 13/16 X 7/8",
       "category": "FERRETERIA",
       "main_category": "HERRAMIENTAS MANUALES",
       "brand": "LOWE´S"
-    },
-    {
-      "articulo_id": "15781",
-      "name": "JUEGO DE LLAVES COMBINADAS TRU",
-      "description": "JUEGO DE LLAVES COMBINADAS TRUPER GRANALLADAS 11 PIEZAS",
-      "category": "FERRETERIA",
-      "main_category": "HERRAMIENTAS MANUALES",
-      "brand": "LOWE´S"
-    },
-    {
-      "articulo_id": "15817",
-      "name": "JUEGO LLAVES COMBINADAS CON MA",
-      "description": "JUEGO LLAVES COMBINADAS CON MATRACA 8 PZAS TRUPER",
-      "category": "FERRETERIA",
-      "main_category": null,
-      "brand": "TRUPER"
     },
     {
       "articulo_id": "16629",
@@ -4505,22 +4425,6 @@
       "brand": "TRUPER"
     },
     {
-      "articulo_id": "16871",
-      "name": "RECTIFICADOR 1/4 INDUSTRIAL 60",
-      "description": "RECTIFICADOR 1/4 INDUSTRIAL 600W TRUPER",
-      "category": "FERRETERIA",
-      "main_category": null,
-      "brand": "TRUPER"
-    },
-    {
-      "articulo_id": "16887",
-      "name": "MINIESMERILADORA NEUMATICA 1/4",
-      "description": "MINIESMERILADORA NEUMATICA 1/4 KIT TRUPER",
-      "category": "FERRETERIA",
-      "main_category": "FERRETERÍA GENERAL",
-      "brand": "LOWE´S"
-    },
-    {
       "articulo_id": "17643",
       "name": "HILO DESBROZ 0.095 262 MTS HTR",
       "description": "HILO DESBROZ 0.095 262 MTS HTR-395",
@@ -4529,76 +4433,12 @@
       "brand": "TRUPER"
     },
     {
-      "articulo_id": "18219",
-      "name": "DESARMADOR TIPO MATRACA TRUPER",
-      "description": "DESARMADOR TIPO MATRACA TRUPER CON 26 PIEZAS",
-      "category": "FERRETERIA",
-      "main_category": "DESARMADORES",
-      "brand": "LOWE´S"
-    },
-    {
-      "articulo_id": "18242",
-      "name": "PISTOLA DE IMPACTO NEUMATICA 1",
-      "description": "PISTOLA DE IMPACTO NEUMATICA 1/2 TRUPER (LLAVE)",
-      "category": "FERRETERIA",
-      "main_category": "HERRAMIENTAS MANUALES",
-      "brand": "LOWE´S"
-    },
-    {
-      "articulo_id": "18248",
-      "name": "BOQUILLA ELECTRONICA TRUPER",
-      "description": "BOQUILLA ELECTRONICA TRUPER",
-      "category": "FERRETERIA",
-      "main_category": "FERRETERÍA GENERAL",
-      "brand": "LOWE´S"
-    },
-    {
-      "articulo_id": "18257",
-      "name": "MECHERO PARA TANQUE DE GAS PRO",
-      "description": "MECHERO PARA TANQUE DE GAS PROPANO TRUPER",
-      "category": "FERRETERIA",
-      "main_category": null,
-      "brand": "TRUPER"
-    },
-    {
-      "articulo_id": "18346",
-      "name": "CUERDA PARA REMOLQUE CON GANCH",
-      "description": "CUERDA PARA REMOLQUE CON GANCHOS TRUPER DE 7/8 PULGADAS POR 4.5 METROS",
-      "category": "FERRETERIA",
-      "main_category": "CUERDAS",
-      "brand": "LOWE´S"
-    },
-    {
-      "articulo_id": "19382",
-      "name": "LIJADORA ORBITAL NEUMATICA 6 T",
-      "description": "LIJADORA ORBITAL NEUMATICA 6 TRUPER",
-      "category": "FERRETERIA",
-      "main_category": "LIJAS",
-      "brand": "LOWE´S"
-    },
-    {
-      "articulo_id": "19383",
-      "name": "MARTILLO NEUMATICO TRUPER",
-      "description": "MARTILLO NEUMATICO TRUPER",
-      "category": "FERRETERIA",
-      "main_category": "HERRAMIENTAS MANUALES",
-      "brand": "LOWE´S"
-    },
-    {
       "articulo_id": "1084007",
       "name": "ONE PIECE THOR BLANCO FONTIBRE",
       "description": "ONE PIECE THOR BLANCO FONTIBRE C/ ASIENTO CIERRE LENTO 4.8L DESC 700 GRS",
       "category": "BAÑOS",
       "main_category": "SANITARIOS",
       "brand": "FONTIBRE"
-    },
-    {
-      "articulo_id": "15605",
-      "name": "LLAVE COMBINADA DE 1 1/4\" TRUP",
-      "description": "LLAVE COMBINADA DE 1 1/4\" TRUPER",
-      "category": "FERRETERIA",
-      "main_category": null,
-      "brand": "TRUPER"
     },
     {
       "articulo_id": "19700",
@@ -9006,14 +8846,6 @@
       "description": "MANGUERA RETRACTIL C/DESPACHADOR",
       "category": "FERRETERIA",
       "main_category": "FONTANERIA",
-      "brand": "LOWE´S"
-    },
-    {
-      "articulo_id": "101816981",
-      "name": "GABINETE METALICO TRUPER CON",
-      "description": "GABINETE METALICO TRUPER CON  6 CAJONES Y CAPACIDAD 50 KG",
-      "category": "FERRETERIA",
-      "main_category": null,
       "brand": "LOWE´S"
     },
     {
@@ -31497,14 +31329,6 @@
       "brand": "LOWE´S"
     },
     {
-      "articulo_id": "117640",
-      "name": "PORTA MANGUERA PLASTICO TRUPER",
-      "description": "PORTA MANGUERA PLASTICO TRUPER",
-      "category": "FERRETERIA",
-      "main_category": "FERRETERÍA GENERAL",
-      "brand": "LOWE´S"
-    },
-    {
       "articulo_id": "117920",
       "name": "FOCO ESP FL 20W L/ FRIA T2 TEC",
       "description": "FOCO ESP FL 20W L/ FRIA T2 TECNO",
@@ -36081,14 +35905,6 @@
       "brand": "LOWE´S"
     },
     {
-      "articulo_id": "752630",
-      "name": "DESARMADOR CABINET 1/8X6\" TRUP",
-      "description": "DESARMADOR CABINET 1/8X6\" TRUPER",
-      "category": "HOGAR",
-      "main_category": null,
-      "brand": "LOWE´S"
-    },
-    {
       "articulo_id": "752970",
       "name": "TORNILLOS AUTOPERFO 8-18X1 VP-",
       "description": "TORNILLOS AUTOPERFO 8-18X1 VP-HWH",
@@ -36940,14 +36756,6 @@
       "articulo_id": "856422",
       "name": "TORNILLO P/METAL 8 X 1/2 VP-HW",
       "description": "TORNILLO P/METAL 8 X 1/2 VP-HWH",
-      "category": "HOGAR",
-      "main_category": null,
-      "brand": "LOWE´S"
-    },
-    {
-      "articulo_id": "856973",
-      "name": "",
-      "description": "TIJERA DOS MANOS 17\" TRUPER",
       "category": "HOGAR",
       "main_category": null,
       "brand": "LOWE´S"
@@ -49600,5 +49408,7 @@
       "main_category": null,
       "brand": "HITOOLS"
     }
+  
+
   ]
 }
