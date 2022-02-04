@@ -1,5 +1,5 @@
 {
-  "data":[
+  "data": [
     {
       "articulo_id": "500440",
       "name": "TINACO RESISTEC B GRIS 450 LTS",
@@ -5574,14 +5574,6 @@
       "description": "ABANICO 52\" MILL VALLEY PLATEADO MATTE HUNTER",
       "category": "HOGAR",
       "main_category": "VENTILACION Y CALEFACCIÓN",
-      "brand": "LOWE´S"
-    },
-    {
-      "articulo_id": "103767909",
-      "name": "PAGODA SOLAR LED NEGRA VOLTECH",
-      "description": "PAGODA SOLAR LED NEGRA VOLTECH",
-      "category": "HOGAR",
-      "main_category": null,
       "brand": "LOWE´S"
     },
     {
@@ -14345,22 +14337,6 @@
       "brand": "LOWE´S"
     },
     {
-      "articulo_id": "100405849",
-      "name": "GANCHO TIPO \"S\" 3/16 ZINC FIER",
-      "description": "GANCHO TIPO \"S\" 3/16 ZINC FIERO",
-      "category": "FERRETERIA",
-      "main_category": "LLAVES Y ACCESORIOS",
-      "brand": "LOWE´S"
-    },
-    {
-      "articulo_id": "100405881",
-      "name": "GANCHO TIPO \"S\" 5/16\" ZINC FIE",
-      "description": "GANCHO TIPO \"S\" 5/16\" ZINC FIERO",
-      "category": "HOGAR",
-      "main_category": null,
-      "brand": "LOWE´S"
-    },
-    {
       "articulo_id": "100416644",
       "name": "MULTIMETRO ANALOGO DOGOTULS 50",
       "description": "MULTIMETRO ANALOGO DOGOTULS 500V",
@@ -19641,27 +19617,11 @@
       "brand": "LOWE´S"
     },
     {
-      "articulo_id": "101530705",
-      "name": "REMACHES FIERO DIAMETRO 5/32 A",
-      "description": "REMACHES FIERO DIAMETRO 5/32 AGARRE 1/4 BOLSA DE 50 PIEZAS",
-      "category": "HOGAR",
-      "main_category": null,
-      "brand": "LOWE´S"
-    },
-    {
       "articulo_id": "101531011",
       "name": "MOSQUITERO PARA GAZEBO GT 3.04",
       "description": "MOSQUITERO PARA GAZEBO GT 3.04M",
       "category": "HOGAR",
       "main_category": "PUERTAS Y VENTANAS",
-      "brand": "LOWE´S"
-    },
-    {
-      "articulo_id": "101531636",
-      "name": "REMACHES FIERO DIAMETRO 1/8 AG",
-      "description": "REMACHES FIERO DIAMETRO 1/8 AGARRE 1/4 BOLSA DE 50 PIEZAS",
-      "category": "HOGAR",
-      "main_category": null,
       "brand": "LOWE´S"
     },
     {
@@ -49312,7 +49272,5 @@
       "main_category": null,
       "brand": "HITOOLS"
     }
-  
-
   ]
 }
