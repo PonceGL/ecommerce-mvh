@@ -4409,14 +4409,6 @@
       "brand": "AKSI"
     },
     {
-      "articulo_id": "15700",
-      "name": "LLAVE ESPANOLA 13/16 X 7/8",
-      "description": "LLAVE ESPANOLA 13/16 X 7/8",
-      "category": "FERRETERIA",
-      "main_category": "HERRAMIENTAS MANUALES",
-      "brand": "LOWE´S"
-    },
-    {
       "articulo_id": "1084007",
       "name": "ONE PIECE THOR BLANCO FONTIBRE",
       "description": "ONE PIECE THOR BLANCO FONTIBRE C/ ASIENTO CIERRE LENTO 4.8L DESC 700 GRS",
@@ -20498,8 +20490,8 @@
     },
     {
       "articulo_id": "101569036",
-      "name": "FOCO LED DICROICO 5.3 BI PIN  ",
-      "description": "FOCO LED DICROICO 5.3 BI PIN  4WATTS LUZ FRIA SANELEC",
+      "name": "FOCO LED DICROICO 5.3 BI PIN  ",
+      "description": "FOCO LED DICROICO 5.3 BI PIN  4WATTS LUZ FRIA SANELEC",
       "category": "HOGAR",
       "main_category": "ILUMINACION",
       "brand": "LOWE´S"
@@ -23139,15 +23131,15 @@
     {
       "articulo_id": "102622986",
       "name": "MONOMANDO COCINA CROMO CON NAR",
-      "description": "MONOMANDO COCINA CROMO CON NARIZ RETRACTIL 9435 - URREA",
+      "description": "MONOMANDO COCINA CROMO CON NARIZ RETRACTIL 9435 - URREA",
       "category": "COCINA",
       "main_category": "MEZCLADORA",
       "brand": "LOWE´S"
     },
     {
       "articulo_id": "102623989",
-      "name": "MONOMANDO TIPO BAR INOX - URRE",
-      "description": "MONOMANDO TIPO BAR INOX - URREA",
+      "name": "MONOMANDO TIPO BAR INOX - URRE",
+      "description": "MONOMANDO TIPO BAR INOX - URREA",
       "category": "BAÑOS",
       "main_category": "MONOMANDOS Y MEZCLADORAS DE BAÑO",
       "brand": "LOWE´S"
@@ -30763,7 +30755,7 @@
     {
       "articulo_id": "104584611",
       "name": "DESINCRUSTANTE SERPEN FRIGOFOR",
-      "description": "DESINCRUSTANTE SERPEN FRIGOFORTE 1L",
+      "description": "DESINCRUSTANTE SERPEN FRIGOFORTE 1L",
       "category": "HOGAR",
       "main_category": null,
       "brand": "LOWE´S"
@@ -30778,8 +30770,8 @@
     },
     {
       "articulo_id": "104584645",
-      "name": "LIMPIACONDENSADOR FRIGOALKI 55",
-      "description": "LIMPIACONDENSADOR FRIGOALKI 550G",
+      "name": "LIMPIACONDENSADOR FRIGOALKI 55",
+      "description": "LIMPIACONDENSADOR FRIGOALKI 550G",
       "category": "HOGAR",
       "main_category": null,
       "brand": "LOWE´S"
