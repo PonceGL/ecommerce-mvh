@@ -4481,14 +4481,6 @@
       "brand": "LOWE´S"
     },
     {
-      "articulo_id": "101530385",
-      "name": "CASCO DE SEGURIDAD PRETUL COLO",
-      "description": "CASCO DE SEGURIDAD PRETUL COLOR AMARILLO",
-      "category": "HOGAR",
-      "main_category": null,
-      "brand": "LOWE´S"
-    },
-    {
       "articulo_id": "104572433",
       "name": "ADHESIVO CREST PORCELANICO GRI",
       "description": "ADHESIVO CREST PORCELANICO GRIS 20KG",
@@ -12529,14 +12521,6 @@
       "brand": "LOWE´S"
     },
     {
-      "articulo_id": "100202401",
-      "name": "PORTALAMPARA PORCELANA MR VOLT",
-      "description": "PORTALAMPARA PORCELANA MR VOLTECH",
-      "category": "FERRETERIA",
-      "main_category": "APAGADORES, CONECTORES Y PLACAS",
-      "brand": "LOWE´S"
-    },
-    {
       "articulo_id": "100204932",
       "name": "ESPUMA D/POLIURE TOUCHNFOAM 20",
       "description": "ESPUMA D/POLIURE TOUCHNFOAM 20 OZ",
@@ -20490,8 +20474,8 @@
     },
     {
       "articulo_id": "101569036",
-      "name": "FOCO LED DICROICO 5.3 BI PIN  ",
-      "description": "FOCO LED DICROICO 5.3 BI PIN  4WATTS LUZ FRIA SANELEC",
+      "name": "FOCO LED DICROICO 5.3 BI PIN  ",
+      "description": "FOCO LED DICROICO 5.3 BI PIN  4WATTS LUZ FRIA SANELEC",
       "category": "HOGAR",
       "main_category": "ILUMINACION",
       "brand": "LOWE´S"
@@ -23131,15 +23115,15 @@
     {
       "articulo_id": "102622986",
       "name": "MONOMANDO COCINA CROMO CON NAR",
-      "description": "MONOMANDO COCINA CROMO CON NARIZ RETRACTIL 9435 - URREA",
+      "description": "MONOMANDO COCINA CROMO CON NARIZ RETRACTIL 9435 - URREA",
       "category": "COCINA",
       "main_category": "MEZCLADORA",
       "brand": "LOWE´S"
     },
     {
       "articulo_id": "102623989",
-      "name": "MONOMANDO TIPO BAR INOX - URRE",
-      "description": "MONOMANDO TIPO BAR INOX - URREA",
+      "name": "MONOMANDO TIPO BAR INOX - URRE",
+      "description": "MONOMANDO TIPO BAR INOX - URREA",
       "category": "BAÑOS",
       "main_category": "MONOMANDOS Y MEZCLADORAS DE BAÑO",
       "brand": "LOWE´S"
@@ -30755,7 +30739,7 @@
     {
       "articulo_id": "104584611",
       "name": "DESINCRUSTANTE SERPEN FRIGOFOR",
-      "description": "DESINCRUSTANTE SERPEN FRIGOFORTE 1L",
+      "description": "DESINCRUSTANTE SERPEN FRIGOFORTE 1L",
       "category": "HOGAR",
       "main_category": null,
       "brand": "LOWE´S"
@@ -30770,8 +30754,8 @@
     },
     {
       "articulo_id": "104584645",
-      "name": "LIMPIACONDENSADOR FRIGOALKI 55",
-      "description": "LIMPIACONDENSADOR FRIGOALKI 550G",
+      "name": "LIMPIACONDENSADOR FRIGOALKI 55",
+      "description": "LIMPIACONDENSADOR FRIGOALKI 550G",
       "category": "HOGAR",
       "main_category": null,
       "brand": "LOWE´S"
@@ -37588,14 +37572,6 @@
       "articulo_id": "991773",
       "name": "CUERPO ASPERSOR T SPRAY 4\",5 B",
       "description": "CUERPO ASPERSOR T SPRAY 4\",5 BOQ",
-      "category": "HOGAR",
-      "main_category": null,
-      "brand": "LOWE´S"
-    },
-    {
-      "articulo_id": "994280",
-      "name": "TIJERA DOS MANOS 17\" PRETUL",
-      "description": "TIJERA DOS MANOS 17\" PRETUL",
       "category": "HOGAR",
       "main_category": null,
       "brand": "LOWE´S"
@@ -49264,5 +49240,7 @@
       "main_category": null,
       "brand": "HITOOLS"
     }
+  
+    
   ]
 }
