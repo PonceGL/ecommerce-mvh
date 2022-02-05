@@ -10849,43 +10849,11 @@
       "brand": "LOWE´S"
     },
     {
-      "articulo_id": "100103461",
-      "name": "METRO CADENA PLASTICA BLANCA #",
-      "description": "METRO CADENA PLASTICA BLANCA #8",
-      "category": "FERRETERIA",
-      "main_category": "CADENAS",
-      "brand": "LOWE´S"
-    },
-    {
       "articulo_id": "100103779",
       "name": "GANCHO P/BAÑO GDE COMMAND",
       "description": "GANCHO P/BAÑO GDE COMMAND",
       "category": "BAÑOS",
       "main_category": "ACCESORIOS PARA BAÑOS",
-      "brand": "LOWE´S"
-    },
-    {
-      "articulo_id": "100108246",
-      "name": "CAJA RECTANGULAR 4X2 \"CHALUPA\"",
-      "description": "CAJA RECTANGULAR 4X2 \"CHALUPA\" GALV",
-      "category": "HOGAR",
-      "main_category": null,
-      "brand": "LOWE´S"
-    },
-    {
-      "articulo_id": "100108369",
-      "name": "CAJA CUADRADA 3X3 GALVANIZADA",
-      "description": "CAJA CUADRADA 3X3 GALVANIZADA",
-      "category": "FERRETERIA",
-      "main_category": "ELECTRICO",
-      "brand": "LOWE´S"
-    },
-    {
-      "articulo_id": "100108449",
-      "name": "CAJA CUADRADA 4X4 GALVANIZADA",
-      "description": "CAJA CUADRADA 4X4 GALVANIZADA",
-      "category": "FERRETERIA",
-      "main_category": "ELECTRICO",
       "brand": "LOWE´S"
     },
     {
@@ -20889,22 +20857,6 @@
       "brand": "LOWE´S"
     },
     {
-      "articulo_id": "101578039",
-      "name": "ASPERSOR METALICO TIPO MANGUER",
-      "description": "ASPERSOR METALICO TIPO MANGUERA",
-      "category": "HOGAR",
-      "main_category": "JARDINERIA",
-      "brand": "LOWE´S"
-    },
-    {
-      "articulo_id": "101578178",
-      "name": "TIJERA PARA PODA CURVA PRETUL",
-      "description": "TIJERA PARA PODA CURVA PRETUL",
-      "category": "HOGAR",
-      "main_category": null,
-      "brand": "LOWE´S"
-    },
-    {
       "articulo_id": "101578995",
       "name": "BROCA ACERO ALTA VELOCIDAD DEW",
       "description": "BROCA ACERO ALTA VELOCIDAD DEWALT HSS DE 11/64 PULGADAS MAQUINADAS 135 GRADOS",
@@ -29401,14 +29353,6 @@
       "brand": "LOWE´S"
     },
     {
-      "articulo_id": "104355560",
-      "name": "ASPERSOR METALICO GIRATORIO CO",
-      "description": "ASPERSOR METALICO GIRATORIO CON ASPAS DIAMETRO RIEGO 5 MTS",
-      "category": "HOGAR",
-      "main_category": "JARDINERIA",
-      "brand": "LOWE´S"
-    },
-    {
       "articulo_id": "104382568",
       "name": "FOCO LED PAR 18W LF TECNO",
       "description": "FOCO LED PAR 18W LF TECNO",
@@ -31897,14 +31841,6 @@
       "brand": "LOWE´S"
     },
     {
-      "articulo_id": "207990",
-      "name": "POLEA/GARRUCHA SENCILLA 1 1/2\"",
-      "description": "POLEA/GARRUCHA SENCILLA 1 1/2\"",
-      "category": "HOGAR",
-      "main_category": null,
-      "brand": "LOWE´S"
-    },
-    {
       "articulo_id": "208282",
       "name": "SILICON PENS HOGAR TRANS DEP 2",
       "description": "SILICON PENS HOGAR TRANS DEP 20GR",
@@ -31990,14 +31926,6 @@
       "description": "ESPUMA AIRE ACONDICIONADO 2-1/4",
       "category": "HOGAR",
       "main_category": null,
-      "brand": "LOWE´S"
-    },
-    {
-      "articulo_id": "225797",
-      "name": "DESTORCEDOR RAPIDO 5/8\"",
-      "description": "DESTORCEDOR RAPIDO 5/8\"",
-      "category": "FERRETERIA",
-      "main_category": "LLAVES Y ACCESORIOS",
       "brand": "LOWE´S"
     },
     {
@@ -49241,6 +49169,6 @@
       "brand": "HITOOLS"
     }
   
-    
+
   ]
 }
