@@ -19,7 +19,6 @@ import styles from "@/styles/pages/HomePage.module.css";
 // g.DESGIR = 'FERRETERIA'
 // g2.DESC_GIR2 = 'PUERTAS Y VENTANAS'
 // g2.DESC_GIR2 = 'VENTILACION Y CALEFACCIÓN'
-//articulos.js
 
 const HomePage = ({
   BestSellers,
