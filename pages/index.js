@@ -19,13 +19,14 @@ import styles from "@/styles/pages/HomePage.module.css";
 // g.DESGIR = 'FERRETERIA'
 // g2.DESC_GIR2 = 'PUERTAS Y VENTANAS'
 // g2.DESC_GIR2 = 'VENTILACION Y CALEFACCIÓN'
+//articulos.js
 
 const HomePage = ({
   BestSellers,
+  GardeningItems,
+  PoolsItems,
   LightingItems,
-  FerrItems,
-  DoorsItems,
-  VentilationItems,
+  FurnitureItems,
 }) => {
   const { homeMain, productSection, titleSection } = styles;
 
@@ -90,28 +91,29 @@ const HomePage = ({
             <HomeSection data={BestSellers} />
           </section>
         )}
+        {GardeningItems.length > 0 && (
+          <section className={productSection}>
+            <h3 className={titleSection}>JARDINERÍA</h3>
+            <HomeSection data={GardeningItems} />
+          </section>
+        )}
+        {PoolsItems.length > 0 && (
+          <section className={productSection}>
+            <h3 className={titleSection}>ALBERCAS</h3>
+            <HomeSection data={PoolsItems} />
+          </section>
+        )}
         {LightingItems.length > 0 && (
           <section className={productSection}>
             <h3 className={titleSection}>ILUMINACIÓN</h3>
             <HomeSection data={LightingItems} />
           </section>
         )}
-        {FerrItems.length > 0 && (
+
+        {FurnitureItems.length > 0 && (
           <section className={productSection}>
-            <h3 className={titleSection}>FERRETERIA</h3>
-            <HomeSection data={FerrItems} />
-          </section>
-        )}
-        {DoorsItems.length > 0 && (
-          <section className={productSection}>
-            <h3 className={titleSection}>PUERTAS Y VENTANAS</h3>
-            <HomeSection data={DoorsItems} />
-          </section>
-        )}
-        {VentilationItems.length > 0 && (
-          <section className={productSection}>
-            <h3 className={titleSection}>VENTILACIÓN Y CALEFACCIÓN</h3>
-            <HomeSection data={VentilationItems} />
+            <h3 className={titleSection}>MUEBLES</h3>
+            <HomeSection data={FurnitureItems} />
           </section>
         )}
       </main>
@@ -126,29 +128,29 @@ export const getStaticProps = async () => {
     (item) => item.category === "LO MÁS VENDIDOS"
   );
 
+  const GardeningItems = articles.data.filter(
+    (item) => item.main_category === "JARDINERIA"
+  );
+
+  const PoolsItems = articles.data.filter(
+    (item) => item.main_category === "ALBERCAS"
+  );
+
   const LightingItems = articles.data.filter(
     (item) => item.main_category === "ILUMINACION"
   );
 
-  const FerrItems = articles.data.filter(
-    (item) => item.category === "FERRETERIA"
-  );
-
-  const DoorsItems = articles.data.filter(
-    (item) => item.main_category === "PUERTAS Y VENTANAS"
-  );
-
-  const VentilationItems = articles.data.filter(
-    (item) => item.main_category === "VENTILACION Y CALEFACCIÓN"
+  const FurnitureItems = articles.data.filter(
+    (item) => item.main_category === "MUEBLES"
   );
 
   return {
     props: {
       BestSellers,
+      PoolsItems,
+      GardeningItems,
       LightingItems,
-      FerrItems,
-      DoorsItems,
-      VentilationItems,
+      FurnitureItems,
     },
     revalidate: 10,
   };

@@ -17,14 +17,6 @@
       "brand": "ROTOPLAS"
     },
     {
-      "articulo_id": "500442",
-      "name": "TINACO RESISTEC BICAPA GRIS 11",
-      "description": "TINACO RESISTEC BICAPA GRIS 1100 LTS",
-      "category": "FERRETERIA",
-      "main_category": "TINACOS Y CISTERNAS",
-      "brand": "ROTOPLAS"
-    },
-    {
       "articulo_id": "488169",
       "name": "ADEBLOK MELON 40 KG",
       "description": "ADEBLOK MELON 40 KG",
@@ -3740,8 +3732,8 @@
       "articulo_id": "CARETA",
       "name": "CARETA",
       "description": "CARETAS PROTECTORAS DE PLASTICO GRANDES",
-      "category": "LO MÁS VENDIDOS",
-      "main_category": null,
+      "category": "HOGAR",
+      "main_category": "COVID",
       "brand": "POR DEFECTO"
     },
     {
@@ -5130,8 +5122,8 @@
     },
     {
       "articulo_id": "101530465",
-      "name": "SEGURO MULTIUSOS 1PZ DOREL",
-      "description": "SEGURO MULTIUSOS 1PZ DOREL",
+      "name": "SEGURO MULTIUSOS 1PZ DOREL MOD",
+      "description": "SEGURO MULTIUSOS 1PZ DOREL MOD",
       "category": "HOGAR",
       "main_category": null,
       "brand": "LOWE´S"
@@ -10636,8 +10628,8 @@
       "articulo_id": "100070989",
       "name": "CODO 90X1/2\" PVC CED40 CC",
       "description": "CODO 90X1/2\" PVC CED40 CC",
-      "category": "HOGAR",
-      "main_category": null,
+      "category": "FERRETERIA",
+      "main_category": "FONTANERIA",
       "brand": "LOWE´S"
     },
     {
@@ -10740,8 +10732,8 @@
       "articulo_id": "100074200",
       "name": "CAJA PASTO ULTRA RESISTENTE JA",
       "description": "CAJA PASTO ULTRA RESISTENTE JARDINES 908G",
-      "category": "HOGAR",
-      "main_category": "JARDINERIA",
+      "category": "LO MÁS VENDIDOS",
+      "main_category": null,
       "brand": "LOWE´S"
     },
     {
@@ -17708,7 +17700,7 @@
       "articulo_id": "101367670",
       "name": "TIERRA/CACTUS Y SUCULENTAS 4.4",
       "description": "TIERRA/CACTUS Y SUCULENTAS 4.4 L",
-      "category": "HOGAR",
+      "category": "LO MÁS VENDIDOS",
       "main_category": null,
       "brand": "LOWE´S"
     },
@@ -24484,8 +24476,8 @@
       "articulo_id": "103162070",
       "name": "BANCA PLEGABLE BLANCA",
       "description": "BANCA PLEGABLE BLANCA",
-      "category": "HOGAR",
-      "main_category": "JARDINERIA",
+      "category": "LO MÁS VENDIDOS",
+      "main_category": null,
       "brand": "LOWE´S"
     },
     {
@@ -25857,14 +25849,6 @@
       "brand": "LOWE´S"
     },
     {
-      "articulo_id": "103363154",
-      "name": "BOTELLA TIPO LATA STAR WARS",
-      "description": "BOTELLA TIPO LATA STAR WARS",
-      "category": "COCINA",
-      "main_category": "TERMOS Y BOTELLAS",
-      "brand": "LOWE´S"
-    },
-    {
       "articulo_id": "103370004",
       "name": "CONECTOR GLANDULA DE 3/8",
       "description": "CONECTOR GLANDULA DE 3/8",
@@ -27108,8 +27092,8 @@
       "articulo_id": "103667561",
       "name": "CURVA 1/2 PVC CONDUIT LIGERO",
       "description": "CURVA 1/2 PVC CONDUIT LIGERO",
-      "category": "HOGAR",
-      "main_category": null,
+      "category": "FERRETERIA",
+      "main_category": "TUBERÍA",
       "brand": "LOWE´S"
     },
     {
@@ -31044,8 +31028,8 @@
       "articulo_id": "104652812",
       "name": "CAJA HERRAMIENTAS 16IN",
       "description": "CAJA HERRAMIENTAS 16IN",
-      "category": "HOGAR",
-      "main_category": "ORGANIZADORES",
+      "category": "FERRETERIA",
+      "main_category": "CAJAS DE HERRAMIENTAS",
       "brand": "LOWE´S"
     },
     {
@@ -32587,7 +32571,7 @@
     {
       "articulo_id": "330248",
       "name": "MONOMANDO COCINA CROMO URREA 4",
-      "description": "MONOMANDO COCINA CROMO URREA 4328",
+      "description": "MONOMANDO COCINA CROMO DICA 4328",
       "category": "BAÑOS",
       "main_category": "MONOMANDOS Y MEZCLADORAS DE BAÑO",
       "brand": "LOWE´S"
@@ -37115,7 +37099,7 @@
     {
       "articulo_id": "929304",
       "name": "SET REGADERA CROMO(4504B+4470)",
-      "description": "SET REGADERA CROMO(4504B+4470)URE",
+      "description": "SET REGADERA CROMO(4504B+4470) DICA",
       "category": "HOGAR",
       "main_category": null,
       "brand": "LOWE´S"
@@ -49168,7 +49152,5 @@
       "main_category": null,
       "brand": "HITOOLS"
     }
-  
-
   ]
 }

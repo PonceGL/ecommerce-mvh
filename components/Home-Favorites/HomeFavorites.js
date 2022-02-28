@@ -4,7 +4,6 @@ import Link from "next/link";
 import fetch from "isomorphic-unfetch";
 
 // Data
-import { articulos } from "../../database/articulos";
 import articles from "../../database/articles.json";
 
 // Components
@@ -29,7 +28,7 @@ const HomeFavorites = ({ itemsIliked }) => {
         setmyFavorites(data);
       }
     }
-  }, [itemsIliked, articulos]);
+  }, [itemsIliked, articles]);
 
   if (itemsIliked.length > 0) {
     return (

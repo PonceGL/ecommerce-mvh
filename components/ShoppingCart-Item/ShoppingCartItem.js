@@ -6,7 +6,7 @@ import { useGetStock } from "../../hooks/useGetStock";
 import { connect } from "react-redux";
 
 // Data
-import { articulos } from "../../database/articulos";
+import articles from "../../database/articles.json";
 
 //Actions
 import { setMyCart, setRemovedFromCart, setUpdateCart } from "../../actions";
@@ -60,8 +60,8 @@ const ShoppingCartItem = ({
   const selectQ = useRef(null);
 
   useEffect(() => {
-    if (articulos.length > 0) {
-      const data = articulos.filter(
+    if (articles.length > 0) {
+      const data = articles.filter(
         (item) => item.articulo_id === articulo_id
       )[0];
 
@@ -69,7 +69,7 @@ const ShoppingCartItem = ({
         setItem(data);
       }
     }
-  }, [articulo_id, articulos]);
+  }, [articulo_id, articles]);
 
   // Crea las opciones de cantidad que se puede seleccionar
   // de acuero al inventario real en tienda

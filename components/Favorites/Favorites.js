@@ -4,7 +4,7 @@ import Link from "next/link";
 // import fetch from "isomorphic-unfetch";
 
 // Data
-import { articulos } from "../../database/articulos";
+import articles from "../../database/articles.json";
 
 // Components
 import CategorySection from "../Category-Section/CategorySection";
@@ -19,44 +19,17 @@ const Favorites = ({ itemsIliked }) => {
   // const [mainCategories, setMainCategories] = useState([]);
 
   useEffect(() => {
-    if (articulos.length > 0) {
+    if (articles.length > 0) {
       const data = itemsIliked.map(
         (article) =>
-          articulos.filter(
-            (item) => item.articulo_id === article.articulo_id
-          )[0]
+          articles.filter((item) => item.articulo_id === article.articulo_id)[0]
       );
 
       if (data) {
         setmyFavorites(data);
       }
     }
-  }, [itemsIliked, articulos]);
-
-  // // Consulta las categorias
-  // useEffect(async () => {
-  //   if (itemsIliked.length === 0) {
-  //     const response = await fetch(`/api/menu`);
-  //     const { data } = await response.json();
-  //     setallCAtegories(data);
-  //   }
-  // }, [itemsIliked]);
-
-  // // Filtra las categorias principales
-  // useEffect(() => {
-  //   const cat = allCAtegories.map((item) => item.categorie);
-
-  //   let result = cat.filter((item, index) => {
-  //     return cat.indexOf(item) === index;
-  //   });
-  //   setMainCategories(result);
-  // }, [allCAtegories]);
-
-  // useEffect(async () => {
-  //   if (itemsIliked.length === 0) {
-  //     setSomeArticles(articulos.slice(0, 12));
-  //   }
-  // }, [itemsIliked, articulos]);
+  }, [itemsIliked, articles]);
 
   return (
     <ContainerFavorites>

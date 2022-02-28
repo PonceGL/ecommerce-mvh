@@ -3,7 +3,7 @@ import Image from "next/image";
 import { useGetImage } from "../../hooks/useGetImage";
 
 // Data
-import { articulos } from "../../database/articulos";
+import articles from "../../database/articles.json";
 
 // Styled Components
 import { Item, ImageConatiner } from "./style";
@@ -25,8 +25,8 @@ const AlertItem = ({ articulo_id, initialQuantity, price }) => {
   const [image_url] = useGetImage(articulo_id);
 
   useEffect(() => {
-    if (articulos.length > 0 && articulo_id) {
-      const data = articulos.filter((item) => item.articulo_id === articulo_id);
+    if (articles.length > 0 && articulo_id) {
+      const data = articles.filter((item) => item.articulo_id === articulo_id);
       if (data) {
         setProduct(data[0]);
       }
