@@ -3740,16 +3740,16 @@
       "articulo_id": "CUBNSV",
       "name": "CUBREBOCAS P/NIÑO SIN VALVULA",
       "description": "CUBREBOCAS P/NIÑO SIN VALVULA",
-      "category": "LO MÁS VENDIDOS",
-      "main_category": null,
+      "category": "HOGAR",
+      "main_category": "COVID",
       "brand": "POR DEFECTO"
     },
     {
       "articulo_id": "CUBNÑV",
       "name": "CUBREBOCAS P/NIÑO CON VALVULA",
       "description": "CUBREBOCAS P/NIÑO CON VALVULA",
-      "category": "LO MÁS VENDIDOS",
-      "main_category": null,
+      "category": "HOGAR",
+      "main_category": "COVID",
       "brand": "POR DEFECTO"
     },
     {
@@ -3764,8 +3764,8 @@
       "articulo_id": "OXIMETRO",
       "name": "OXIMETROS",
       "description": "OXIMETROS",
-      "category": "LO MÁS VENDIDOS",
-      "main_category": null,
+      "category": "HOGAR",
+      "main_category": "COVID",
       "brand": "POR DEFECTO"
     },
     {
@@ -4260,8 +4260,8 @@
       "articulo_id": "CUBA",
       "name": "CUBREBOCAS SENCILLO AZUL O BLA",
       "description": "CUBREBOCAS SENCILLO AZUL O BLANCO PZA",
-      "category": "LO MÁS VENDIDOS",
-      "main_category": null,
+      "category": "HOGAR",
+      "main_category": "COVID",
       "brand": "POR DEFECTO"
     },
     {
@@ -24636,16 +24636,16 @@
       "articulo_id": "103207995",
       "name": "GEL ANTIBAC ESFERA CUTE SIZE",
       "description": "GEL ANTIBAC ESFERA CUTE SIZE",
-      "category": "LO MÁS VENDIDOS",
-      "main_category": null,
+      "category": "HOGAR",
+      "main_category": "COVID",
       "brand": "LOWE´S"
     },
     {
       "articulo_id": "103208007",
       "name": "GEL ANTIBAC  PIRAMIDE CUTE SIZ",
       "description": "GEL ANTIBAC  PIRAMIDE CUTE SIZE",
-      "category": "LO MÁS VENDIDOS",
-      "main_category": null,
+      "category": "HOGAR",
+      "main_category": "COVID",
       "brand": "LOWE´S"
     },
     {
@@ -29345,14 +29345,6 @@
       "brand": "LOWE´S"
     },
     {
-      "articulo_id": "104403576",
-      "name": "PEGAMENTO CONTACTO P/ PASTO 1L",
-      "description": "PEGAMENTO CONTACTO P/ PASTO 1L",
-      "category": "HOGAR",
-      "main_category": null,
-      "brand": "LOWE´S"
-    },
-    {
       "articulo_id": "104403592",
       "name": "FOCO LED PAR 18.5W LC TECNO",
       "description": "FOCO LED PAR 18.5W LC TECNO",
@@ -31122,8 +31114,8 @@
     },
     {
       "articulo_id": "115465",
-      "name": "VALVULA DICA DE BOLA COMPACTA",
-      "description": "VALVULA DICA DE BOLA COMPACTA 3/4\"",
+      "name": "VALVULA ESFERA ROSCABLE DE 3/4",
+      "description": "VALVULA ESFERA ROSCABLE DE 3/4\"",
       "category": "HOGAR",
       "main_category": null,
       "brand": "LOWE´S"
@@ -34074,8 +34066,8 @@
     },
     {
       "articulo_id": "526813",
-      "name": "VALVULA DICA DE BOLA COMPACTA",
-      "description": "VALVULA DICA DE BOLA COMPACTA 1\"",
+      "name": "VALVULA ESFERA RISCABLE 1''",
+      "description": "VALVULA ESFERA RISCABLE DE 1\"",
       "category": "HOGAR",
       "main_category": null,
       "brand": "LOWE´S"
