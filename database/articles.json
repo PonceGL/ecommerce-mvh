@@ -9204,8 +9204,8 @@
       "articulo_id": "100031373",
       "name": "MESA PLEGABLE 244X76 CM LIFETI",
       "description": "MESA PLEGABLE 244X76 CM LIFETIME",
-      "category": "HOGAR",
-      "main_category": "MUEBLES",
+      "category": "LO MÁS VENDIDOS",
+      "main_category": null,
       "brand": "LOWE´S"
     },
     {
@@ -9492,8 +9492,8 @@
       "articulo_id": "100045361",
       "name": "MESA CUADRADA 42\" DRISCOL",
       "description": "MESA CUADRADA 42\" DRISCOL",
-      "category": "HOGAR",
-      "main_category": "MUEBLES",
+      "category": "LO MÁS VENDIDOS",
+      "main_category": null,
       "brand": "LOWE´S"
     },
     {
@@ -10382,14 +10382,6 @@
       "description": "CURVA  90 2\" PESADA PVC CONDUIT",
       "category": "FERRETERIA",
       "main_category": "TUBERÍA",
-      "brand": "LOWE´S"
-    },
-    {
-      "articulo_id": "100059309",
-      "name": "MACETA FIBRAV JICARA CHOCOLAT",
-      "description": "MACETA FIBRAV JICARA CHOCOLAT MED",
-      "category": "HOGAR",
-      "main_category": "JARDINERIA",
       "brand": "LOWE´S"
     },
     {
@@ -19684,8 +19676,8 @@
       "articulo_id": "101541041",
       "name": "BASE DE MADERA PARA MACETAS 14",
       "description": "BASE DE MADERA PARA MACETAS 14 IN",
-      "category": "HOGAR",
-      "main_category": "JARDINERIA",
+      "category": "LO MÁS VENDIDOS",
+      "main_category": null,
       "brand": "LOWE´S"
     },
     {
@@ -19764,8 +19756,8 @@
       "articulo_id": "101549035",
       "name": "BASE CURVA PARA ENRREDADERA 84",
       "description": "BASE CURVA PARA ENRREDADERA 84 IN",
-      "category": "HOGAR",
-      "main_category": "JARDINERIA",
+      "category": "LO MÁS VENDIDOS",
+      "main_category": null,
       "brand": "LOWE´S"
     },
     {
@@ -28164,7 +28156,7 @@
       "articulo_id": "103803578",
       "name": "MESA RENDONDA PLEGABLE 1.22M",
       "description": "MESA RENDONDA PLEGABLE 1.22M",
-      "category": "HOGAR",
+      "category": "LO MÁS VENDIDOS",
       "main_category": null,
       "brand": "LOWE´S"
     },
@@ -31770,8 +31762,8 @@
     },
     {
       "articulo_id": "202879",
-      "name": "NUMERO DOMICILIARIO 4 5\" BRONC",
-      "description": "NUMERO DOMICILIARIO 4 5\" BRONCE",
+      "name": "NUMERO DOMICILIARIO 4 5\" ORO",
+      "description": "NUMERO DOMICILIARIO 4 5\" ORO",
       "category": "FERRETERIA",
       "main_category": "ANUNCIOS",
       "brand": "LOWE´S"
@@ -37434,8 +37426,8 @@
     },
     {
       "articulo_id": "984019",
-      "name": "CINCHO P/ CABLE 3.5 X 140 100P",
-      "description": "CINCHO P/ CABLE 3.5 X 140 100PZ",
+      "name": "CINCHO P/ CABLE 3.2 X 140 100P",
+      "description": "CINCHO P/ CABLE 3.2 X 140 100PZ",
       "category": "FERRETERIA",
       "main_category": "ELECTRICO",
       "brand": "LOWE´S"
