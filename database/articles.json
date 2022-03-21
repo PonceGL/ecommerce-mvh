@@ -1,6 +1,94 @@
 {
   "data": [
     {
+      "articulo_id": "53092",
+      "name": "CENTRO DE JUEGOS C/ALBERCA 2.5",
+      "description": "CENTRO DE JUEGOS C/ALBERCA 2.57 X 1.45 X .91CM",
+      "category": "HOGAR",
+      "main_category": "ALBERCAS",
+      "brand": "POR DEFECTO"
+    },
+    {
+      "articulo_id": "54066",
+      "name": "ALBERCA INFLABLE OVALADA 2.29",
+      "description": "ALBERCA INFLABLE OVALADA 2.29 X 1.52  51 CM",
+      "category": "HOGAR",
+      "main_category": "ALBERCAS",
+      "brand": "POR DEFECTO"
+    },
+    {
+      "articulo_id": "54122",
+      "name": "ALBERCA INFLABLE RECTANGULAR 2",
+      "description": "ALBERCA INFLABLE RECTANGULAR 2.51 X 1.68 X 1.02 CM C/AROS BASKETBALL 1 MOD",
+      "category": "HOGAR",
+      "main_category": "ALBERCAS",
+      "brand": "POR DEFECTO"
+    },
+    {
+      "articulo_id": "54153A",
+      "name": "ALBERCA INFLABLE PENTAGONO 2.1",
+      "description": "ALBERCA INFLABLE PENTAGONO 2.13 X 2.07 X .69 CM 2 ANILLOS AZUL C/BCO ASIENTOS Y PORTAVASOS",
+      "category": "HOGAR",
+      "main_category": "ALBERCAS",
+      "brand": "POR DEFECTO"
+    },
+    {
+      "articulo_id": "56403",
+      "name": "ALBERCA CON STRUCTURA RECTANGU",
+      "description": "ALBERCA CON STRUCTURA RECTANGULAR 2.59 X 1.70 X .61 CM AZUL 1MOD",
+      "category": "HOGAR",
+      "main_category": "ALBERCAS",
+      "brand": "POR DEFECTO"
+    },
+    {
+      "articulo_id": "56404",
+      "name": "ALBERCA CON ESTRUCTURA RECTANG",
+      "description": "ALBERCA CON ESTRUCTURA RECTANGULAR 3.00 X 2.01 X .66 CM AZUL 1 MOD",
+      "category": "HOGAR",
+      "main_category": "ALBERCAS",
+      "brand": "POR DEFECTO"
+    },
+    {
+      "articulo_id": "56405",
+      "name": "ALBERCA CON ESTRUCTURA RECTANG",
+      "description": "ALBERCA CON ESTRUCTURA RECTANGULAR 4.00 X 2.11 X .81 CM AZUL 1MOD",
+      "category": "HOGAR",
+      "main_category": "ALBERCAS",
+      "brand": "POR DEFECTO"
+    },
+    {
+      "articulo_id": "57326",
+      "name": "ALBERCA SEMIINFLABLE REDONDA 3",
+      "description": "ALBERCA SEMIINFLABLE REDONDA 3.05 X .76CM DECOR ABEJAS 1 MOD",
+      "category": "HOGAR",
+      "main_category": "ALBERCAS",
+      "brand": "POR DEFECTO"
+    },
+    {
+      "articulo_id": "57456",
+      "name": "ALBERCA SEMIINFLABLE REDONDA 3",
+      "description": "ALBERCA SEMIINFLABLE REDONDA 3.05 X .66 CM",
+      "category": "HOGAR",
+      "main_category": "ALBERCAS",
+      "brand": "POR DEFECTO"
+    },
+    {
+      "articulo_id": "58423",
+      "name": "CALENTADOR SOLAR PARA AGUA DE",
+      "description": "CALENTADOR SOLAR PARA AGUA DE ALBERCAS 1.10MX 1.71M 43X67 PULG CAJA 1",
+      "category": "HOGAR",
+      "main_category": "ALBERCAS",
+      "brand": "POR DEFECTO"
+    },
+    {
+      "articulo_id": "000145",
+      "name": "IMPERMEABILIZANTE 7 AÑOS BLANC",
+      "description": "IMPERMEABILIZANTE 7 AÑOS BLANCO GACO 19 LT",
+      "category": "FERRETERIA",
+      "main_category": null,
+      "brand": "HOLCIM"
+    },
+    {
       "articulo_id": "500440",
       "name": "TINACO RESISTEC B GRIS 450 LTS",
       "description": "TINACO RESISTEC BICAPA GRIS 450 LTS",
@@ -43,7 +131,7 @@
     {
       "articulo_id": "000144",
       "name": "IMPERMEABILIZANTE 7 AÑOS TERRA",
-      "description": "IMPERMEABILIZANTE 7 AÑOS TERRACOTA GACOFLEX 19 L",
+      "description": "IMPERMEABILIZANTE 7 AÑOS ROJA TERRACOTA GACOFLEX 19 L",
       "category": "MATERIALES PARA CONSTRUCCION",
       "main_category": "IMPERMEABILIZANTES",
       "brand": "TERRACOTA"
@@ -311,6 +399,14 @@
       "category": "MATERIALES PARA CONSTRUCCION",
       "main_category": "POLVOS",
       "brand": "CREST"
+    },
+    {
+      "articulo_id": "12819",
+      "name": "ALBERCA INFLABLE 3 AÑOS 211X13",
+      "description": "ALBERCA INFLABLE 3 AÑOS 211X132X46CM 1M AZUL/BLANCO",
+      "category": "HOGAR",
+      "main_category": "ALBERCAS",
+      "brand": "POR DEFECTO"
     },
     {
       "articulo_id": "023014",
@@ -48929,14 +49025,6 @@
       "brand": "ART. ELECTRICOS"
     },
     {
-      "articulo_id": "AL",
-      "name": "ALAMBRON 1/4",
-      "description": "ALAMBRON 1/4",
-      "category": "MATERIALES PARA CONSTRUCCION",
-      "main_category": "ACERO",
-      "brand": "POR DEFECTO"
-    },
-    {
       "articulo_id": "CAL",
       "name": "CALHIDRA TENEXTEPEC",
       "description": "CALHIDRA TENEXTEPEC",
@@ -49049,14 +49137,6 @@
       "brand": "HOLCIM"
     },
     {
-      "articulo_id": "REC",
-      "name": "ALAMBRE RECOCIDO",
-      "description": "ALAMBRE RECOCIDO",
-      "category": "MATERIALES PARA CONSTRUCCION",
-      "main_category": "ACERO",
-      "brand": "POR DEFECTO"
-    },
-    {
       "articulo_id": "REDUSANPVC4X11/2",
       "name": "REDUCCION SANIT.PVC 4X1 1/2",
       "description": "REDUCCION SANITARIA PVC 4X1 1/2",
@@ -49071,30 +49151,6 @@
       "category": "FERRETERIA",
       "main_category": "TUBERÍA",
       "brand": "PVC"
-    },
-    {
-      "articulo_id": "V12",
-      "name": "VARILLA FY=4200 KG/CM2 NO.4",
-      "description": "VARILLA FY=4200 KG/CM2 NO.4, (1/2\"), PESO NOMINAL DE 0.994 KG/M, PESO POR PIEZA DE 11.928",
-      "category": "MATERIALES PARA CONSTRUCCION",
-      "main_category": "ACERO",
-      "brand": "TA 2000"
-    },
-    {
-      "articulo_id": "V38",
-      "name": "VARILLA FY=4200 KG/CM2 NO.3",
-      "description": "VARILLA FY=4200 KG/CM2 NO.3, (3/8), PESO NOMINAL DE 0.56 KG/M, PESO POR PIEZA DE 6.72 KG,",
-      "category": "MATERIALES PARA CONSTRUCCION",
-      "main_category": "ACERO",
-      "brand": "TA 2000"
-    },
-    {
-      "articulo_id": "V58",
-      "name": "VARILLA FY=4200 KG/CM2 NO.5, (",
-      "description": "VARILLA FY=4200 KG/CM2 NO.5, (5/8\"), PESO NOMINAL DE 1.552 KG/M, PESO POR PIEZA DE 18.624K",
-      "category": "MATERIALES PARA CONSTRUCCION",
-      "main_category": "ACERO",
-      "brand": "POR DEFECTO"
     },
     {
       "articulo_id": "VALVGLOBOROS3/4\"",
@@ -49136,5 +49192,7 @@
       "main_category": null,
       "brand": "HITOOLS"
     }
+  
+
   ]
 }
