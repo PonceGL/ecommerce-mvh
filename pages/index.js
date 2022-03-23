@@ -84,6 +84,12 @@ const HomePage = ({
         {SlidersItems.length > 0 && <Slider sliderItems={SlidersItems} />}
 
         <HomeFavorites />
+        {PoolsItems.length > 0 && (
+          <section className={productSection}>
+            <h3 className={titleSection}>ALBERCAS</h3>
+            <HomeSection data={PoolsItems} />
+          </section>
+        )}
         {BestSellers.length > 0 && (
           <section className={productSection}>
             <h3 className={titleSection}>PRODUCTOS MÁS VENDIDOS</h3>
@@ -96,12 +102,7 @@ const HomePage = ({
             <HomeSection data={GardeningItems} />
           </section>
         )}
-        {PoolsItems.length > 0 && (
-          <section className={productSection}>
-            <h3 className={titleSection}>ALBERCAS</h3>
-            <HomeSection data={PoolsItems} />
-          </section>
-        )}
+
         {LightingItems.length > 0 && (
           <section className={productSection}>
             <h3 className={titleSection}>ILUMINACIÓN</h3>
