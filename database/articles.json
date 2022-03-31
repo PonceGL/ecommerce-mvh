@@ -58,8 +58,8 @@
     },
     {
       "articulo_id": "57326",
-      "name": "ALBERCA SEMIINFLABLE REDONDA 3",
-      "description": "ALBERCA SEMIINFLABLE REDONDA 3.05 X .76CM DECOR ABEJAS 1 MOD",
+      "name": "ALBERCA SEMIINFLABLE REDONDA",
+      "description": "ALBERCA SEMIINFLABLE REDONDA 1.52 X .38  DECOR ABEJAS 1 MOD",
       "category": "HOGAR",
       "main_category": "ALBERCAS",
       "brand": "POR DEFECTO"
@@ -82,8 +82,8 @@
     },
     {
       "articulo_id": "000145",
-      "name": "IMPERMEABILIZANTE 7 AÑOS BLANC",
-      "description": "IMPERMEABILIZANTE 7 AÑOS BLANCO GACO 19 LT",
+      "name": "IMPER GACOFLEX 7 AÑOS BLANCO",
+      "description": "IMPERMEABILIZANTE 7 AÑOS BLANCO TERRACOTA GACOFLEX 19 L",
       "category": "FERRETERIA",
       "main_category": null,
       "brand": "HOLCIM"
@@ -49151,6 +49151,30 @@
       "category": "FERRETERIA",
       "main_category": "TUBERÍA",
       "brand": "PVC"
+    },
+    {
+      "articulo_id": "V12",
+      "name": "VARILLA FY=4200 KG/CM2 NO.4",
+      "description": "VARILLA FY=4200 KG/CM2 NO.4, (1/2\"), PESO NOMINAL DE 0.994 KG/M, PESO POR PIEZA DE 11.928",
+      "category": "MATERIALES PARA CONSTRUCCION",
+      "main_category": "ACERO",
+      "brand": "TA 2000"
+    },
+    {
+      "articulo_id": "V38",
+      "name": "VARILLA FY=4200 KG/CM2 NO.3",
+      "description": "VARILLA FY=4200 KG/CM2 NO.3, (3/8), PESO NOMINAL DE 0.56 KG/M, PESO POR PIEZA DE 6.72 KG,",
+      "category": "MATERIALES PARA CONSTRUCCION",
+      "main_category": "ACERO",
+      "brand": "TA 2000"
+    },
+    {
+      "articulo_id": "V58",
+      "name": "VARILLA FY=4200 KG/CM2 NO.5, (",
+      "description": "VARILLA FY=4200 KG/CM2 NO.5, (5/8\"), PESO NOMINAL DE 1.552 KG/M, PESO POR PIEZA DE 18.624K",
+      "category": "MATERIALES PARA CONSTRUCCION",
+      "main_category": "ACERO",
+      "brand": "POR DEFECTO"
     },
     {
       "articulo_id": "VALVGLOBOROS3/4\"",
