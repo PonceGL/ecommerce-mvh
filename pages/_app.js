@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Script from "next/script";
 import { DefaultSeo } from "next-seo";
 import { Provider } from "react-redux";
 import { createStore } from "redux";
@@ -28,6 +29,7 @@ initAuth();
 const MyApp = ({ Component, pageProps }) => {
   // Google Analytics
   const router = useRouter();
+
   useEffect(() => {
     const handleRouteChange = (url) => {
       ga.pageview(url);
@@ -87,6 +89,25 @@ const MyApp = ({ Component, pageProps }) => {
             name="viewport"
             content="width=device-width, initial-scale=1.0, user-scalable=no, maximum-scale=5"
           />
+          {/* Facebook Pixel Code */}
+          {/* <Script
+            strategy="afterInteractive"
+            dangerouslySetInnerHTML={{
+              __html: `
+                !function(f,b,e,v,n,t,s)
+                {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+                n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+                if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+                n.queue=[];t=b.createElement(e);t.async=!0;
+                t.src=v;s=b.getElementsByTagName(e)[0];
+                s.parentNode.insertBefore(t,s)}(window, document,'script',
+                'https://connect.facebook.net/en_US/fbevents.js');
+                fbq('init', ${process.env.NEXT_PUBLIC_FACEBOOK_PIXEL_ID});
+                fbq('track', 'PageView');
+              `,
+            }}
+          /> */}
+          {/* End Facebook Pixel Code */}
         </Head>
         <GlobalStyles />
         <ThemeProvider theme={theme}>
