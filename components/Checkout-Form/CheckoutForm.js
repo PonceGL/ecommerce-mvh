@@ -59,26 +59,6 @@ const CheckoutForm = ({
 
   const emailRegex = /[\w\._]{5,30}\+?[\w]{0,20}@[\w\.\-]{3,}\.\w{2,5}$/;
 
-  // console.log("shippingName: ", shippingName);
-  // console.log("shippingLastName: ", shippingLastName);
-  // console.log("phoneNumber: ", phoneNumber);
-
-  // console.log("shippingEmail: ", shippingEmail);
-  // console.log("verifyEmail: ", verifyEmail);
-
-  // console.log("addressState: ", addressState);
-  // console.log("addressCP: ", addressCP);
-  // console.log("addressCity: ", addressCity);
-  // console.log("addressSubdivision: ", addressSubdivision);
-  // console.log("addressStreet: ", addressStreet);
-  // console.log("addressNumber: ", addressNumber);
-  // console.log("referencesText: ", referencesText);
-  // console.log("invoiceRFC: ", invoiceRFC);
-  // console.log("invoiceCompanyName: ", invoiceCompanyName);
-  // console.log("invoicePhoneNumber: ", invoicePhoneNumber);
-  // console.log("invoiceShippingEmail: ", invoiceShippingEmail);
-  // console.log("cfdi: ", cfdi);
-
   useEffect(() => {
     if (
       shippingName.length > 3 &&
@@ -232,6 +212,7 @@ const CheckoutForm = ({
               type="text"
               inputMode="numeric"
               name="addressCP"
+              autocomplete="off"
               placeholder={`Código Postal ${!pickUp && "*"}`}
               maxLength="7"
               text={addressCP.length > 4 ? true : false}

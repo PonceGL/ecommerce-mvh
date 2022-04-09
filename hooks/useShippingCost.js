@@ -332,12 +332,11 @@ const zipCodesBanderilla = [
   "91307",
 ];
 
+const zipPersonalized = ["93210", "93248"]; // Muy importante, cada uno de los códigos postales debe estar entre comillas, y separados por coma
+
 export function useShippingCost(zipCode, subTotal) {
-  const [deliveryCities, setDeliveryCities] = useState([
-    "Xalapa",
-    "Coatepec",
-    "Banderilla",
-  ]);
+  const defaultCities = ["Xalapa", "Coatepec", "Banderilla"];
+  const [deliveryCities, setDeliveryCities] = useState(defaultCities);
   const [cost, setCost] = useState(0);
 
   useEffect(() => {
@@ -355,16 +354,21 @@ export function useShippingCost(zipCode, subTotal) {
       } else if (zipCodesBanderilla.includes(zipCode)) {
         setDeliveryCities(["Banderilla"]);
         setCost(75);
+      } else if (zipPersonalized.includes(zipCode)) {
+        setDeliveryCities(["Poza Rica de Hidalgo"]); // <- Aquí va el nombre de la ciudad con envío personalizado.
+        // Muy importante, el nombre debe estar entre comillas.
+        setCost(130); // <- Aquí va el precio de la ciudad con envío personalizado.
+        // Muy importante, el nombre NO debe estar entre comillas, y solo deben ser números
       } else if (zipCode === "pickUp") {
         setCost(0);
-        setDeliveryCities(["Xalapa", "Coatepec", "Banderilla"]);
+        setDeliveryCities(defaultCities);
       } else {
         setCost(75);
         setDeliveryCities(["contact"]);
       }
     } else {
       setCost(50);
-      setDeliveryCities(["Xalapa", "Coatepec", "Banderilla"]);
+      setDeliveryCities(defaultCities);
     }
   }, [zipCode, subTotal]);
 
