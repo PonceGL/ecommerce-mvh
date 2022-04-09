@@ -117,3 +117,7 @@ package-lock.json
 next.config
 out
 .next
+
+# Mac
+.DS_Store
+components/.DS_Store
