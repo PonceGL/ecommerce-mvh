@@ -332,7 +332,7 @@ const zipCodesBanderilla = [
   "91307",
 ];
 
-const zipPersonalized = ["93210", "93248"]; // Muy importante, cada uno de los códigos postales debe estar entre comillas, y separados por coma
+const zipPersonalized = ["72000"]; // Muy importante, cada uno de los códigos postales debe estar entre comillas, y separados por coma
 
 export function useShippingCost(zipCode, subTotal) {
   const defaultCities = ["Xalapa", "Coatepec", "Banderilla"];
@@ -355,9 +355,9 @@ export function useShippingCost(zipCode, subTotal) {
         setDeliveryCities(["Banderilla"]);
         setCost(75);
       } else if (zipPersonalized.includes(zipCode)) {
-        setDeliveryCities(["Poza Rica de Hidalgo"]); // <- Aquí va el nombre de la ciudad con envío personalizado.
+        setDeliveryCities(["Puebla de Zaragoza"]); // <- Aquí va el nombre de la ciudad con envío personalizado.
         // Muy importante, el nombre debe estar entre comillas.
-        setCost(130); // <- Aquí va el precio de la ciudad con envío personalizado.
+        setCost(175); // <- Aquí va el precio de la ciudad con envío personalizado.
         // Muy importante, el nombre NO debe estar entre comillas, y solo deben ser números
       } else if (zipCode === "pickUp") {
         setCost(0);
