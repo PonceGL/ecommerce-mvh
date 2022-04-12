@@ -332,7 +332,7 @@ const zipCodesBanderilla = [
   "91307",
 ];
 
-const zipPersonalized = ["72000"]; // Muy importante, cada uno de los códigos postales debe estar entre comillas, y separados por coma
+const zipPersonalized = []; // Muy importante, cada uno de los códigos postales debe estar entre comillas, y separados por coma
 
 export function useShippingCost(zipCode, subTotal) {
   const defaultCities = ["Xalapa", "Coatepec", "Banderilla"];
