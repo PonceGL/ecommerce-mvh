@@ -89,6 +89,10 @@ const MyApp = ({ Component, pageProps }) => {
             name="viewport"
             content="width=device-width, initial-scale=1.0, user-scalable=no, maximum-scale=5"
           />
+          <meta
+            name="facebook-domain-verification"
+            content="eu4u9ol0bjgr6enyt6wuyo3rrqywxe"
+          />
           {/* Facebook Pixel Code */}
           {/* <Script
             strategy="afterInteractive"
