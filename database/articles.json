@@ -1,12 +1,11 @@
 {
-  "data": [
-    
+  
   {
     "articulo_id": "000146",
     "name": "IMPERMEABILIZANTE 5 AÑOS BLANC",
     "description": "IMPERMEABILIZANTE 5 AÑOS BLANCO TERRACOTA GACOFLEX 19 L",
-    "category": "MATERIALES PARA CONSTRUCCION",
-    "main_category": null,
+    "category": "ACABADOS",
+    "main_category": "IMPERMEABILIZANTES",
     "brand": "HOLCIM"
   },
   {
@@ -101,8 +100,8 @@
     "articulo_id": "000145",
     "name": "IMPER GACOFLEX 7 AÑOS BLANCO",
     "description": "IMPERMEABILIZANTE 7 AÑOS BLANCO TERRACOTA GACOFLEX 19 L",
-    "category": "FERRETERIA",
-    "main_category": null,
+    "category": "ACABADOS",
+    "main_category": "IMPERMEABILIZANTES",
     "brand": "HOLCIM"
   },
   {
@@ -4432,14 +4431,6 @@
     "category": "HOGAR",
     "main_category": null,
     "brand": "LOWE´S"
-  },
-  {
-    "articulo_id": "228703",
-    "name": "TINACO BICAPA EUROPLAS 1200 LT",
-    "description": "TINACO BICAPA EUROPLAS 1200 LTS C/ACCESORIOS SIN FILTRO",
-    "category": "FERRETERIA",
-    "main_category": "TINACOS Y CISTERNAS",
-    "brand": "POR DEFECTO"
   },
   {
     "articulo_id": "104623122",
@@ -39514,14 +39505,6 @@
     "brand": "PLUSRITE"
   },
   {
-    "articulo_id": "TBP600",
-    "name": "TINACO BICAPA 600LTS PLASTINAK",
-    "description": "TINACO BICAPA 600LTS C/ACC. PLASTINAK",
-    "category": "FERRETERIA",
-    "main_category": "TINACOS Y CISTERNAS",
-    "brand": "PLASTINAK"
-  },
-  {
     "articulo_id": "040939",
     "name": "COPLE PPR 25 (3/4) AQUAPLAS",
     "description": "COPLE PPR 25 (3/4) AQUAPLAS",
@@ -49210,6 +49193,4 @@
     "brand": "HITOOLS"
   }
 
-
-  ]
 }
