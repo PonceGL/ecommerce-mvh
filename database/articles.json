@@ -2,6 +2,126 @@
   "data": [
     
   {
+    "articulo_id": "057940",
+    "name": "JGO CUBIERTOS 16 PZAS TULUM",
+    "description": "JGO CUBIERTOS 16 PZAS TULUM 23299-785",
+    "category": "COCINA",
+    "main_category": "UTENSILIOS",
+    "brand": "CINSA"
+  },
+  {
+    "articulo_id": "1007661",
+    "name": "SARTEN CORAZON",
+    "description": "SARTEN CORAZON",
+    "category": "COCINA",
+    "main_category": "SARTENES",
+    "brand": "POR DEFECTO"
+  },
+  {
+    "articulo_id": "1007662",
+    "name": "SARTEN ESTRELLA",
+    "description": "SARTEN ESTRELLA",
+    "category": "COCINA",
+    "main_category": "SARTENES",
+    "brand": "POR DEFECTO"
+  },
+  {
+    "articulo_id": "1019843",
+    "name": "TAZA CERAMICA ST0464-A",
+    "description": "TAZA CERAMICA ST0464-A",
+    "category": "COCINA",
+    "main_category": null,
+    "brand": "POR DEFECTO"
+  },
+  {
+    "articulo_id": "2112630",
+    "name": "BATERIA TERRANOVA 8 PZ VAQUITA",
+    "description": "BATERIA TERRANOVA 8 PZ VAQUITAS EN CORRAL",
+    "category": "COCINA",
+    "main_category": "BATERIAS, OLLAS Y CACEROLAS",
+    "brand": "CINSA"
+  },
+  {
+    "articulo_id": "293029",
+    "name": "SARTEN ELETRICO SK1212B",
+    "description": "SARTEN ELETRICO SK1212B",
+    "category": "COCINA",
+    "main_category": "ELECTRODOMÉSTICOS",
+    "brand": "POR DEFECTO"
+  },
+  {
+    "articulo_id": "3612354",
+    "name": "TARRO PORCELANA 2415-2691",
+    "description": "TARRO PORCELANA 2415-2691",
+    "category": "COCINA",
+    "main_category": "VAJILLAS",
+    "brand": "POR DEFECTO"
+  },
+  {
+    "articulo_id": "496136",
+    "name": "PANINI MAKER 2546OZ",
+    "description": "PANINI MAKER 2546OZ",
+    "category": "COCINA",
+    "main_category": "ELECTRODOMÉSTICOS",
+    "brand": "HAMILTON BEACH"
+  },
+  {
+    "articulo_id": "496355",
+    "name": "FREIDORA PROFESIONAL 35210",
+    "description": "FREIDORA PROFESIONAL 35210",
+    "category": "COCINA",
+    "main_category": "ELECTRODOMÉSTICOS",
+    "brand": "POR DEFECTO"
+  },
+  {
+    "articulo_id": "512165",
+    "name": "JGO DE OLLAS PELTRE 12-16",
+    "description": "JGO DE OLLAS PELTRE 12-16 Z479",
+    "category": "COCINA",
+    "main_category": "BATERIAS, OLLAS Y CACEROLAS",
+    "brand": "KITCHEN"
+  },
+  {
+    "articulo_id": "6902045",
+    "name": "PLATO CUADRADO 18CM",
+    "description": "PLATO CUADRADO 18CM MELAMINA",
+    "category": "COCINA",
+    "main_category": "VAJILLAS",
+    "brand": "POR DEFECTO"
+  },
+  {
+    "articulo_id": "6902046",
+    "name": "PLATO CUADRARO 15CM MELAMINA",
+    "description": "PLATO CUADRARO 15CM MELAMINA 105-051-109",
+    "category": "COCINA",
+    "main_category": "VAJILLAS",
+    "brand": "POR DEFECTO"
+  },
+  {
+    "articulo_id": "930683",
+    "name": "TAZA 325ML TKT045",
+    "description": "TAZA 325ML TKT045",
+    "category": "COCINA",
+    "main_category": "UTENSILIOS",
+    "brand": "POR DEFECTO"
+  },
+  {
+    "articulo_id": "966022",
+    "name": "FREIDORA DE AIRE DIGITAL RC-10",
+    "description": "FREIDORA DE AIRE DIGITAL RC-10",
+    "category": "COCINA",
+    "main_category": "ELECTRODOMÉSTICOS",
+    "brand": "MT DE MEXICO"
+  },
+  {
+    "articulo_id": "966146",
+    "name": "CREPERA ANTIDHERENTE RC-602",
+    "description": "CREPERA ANTIDHERENTE RC-602",
+    "category": "COCINA",
+    "main_category": "ELECTRODOMÉSTICOS",
+    "brand": "POR DEFECTO"
+  },
+  {
     "articulo_id": "000146",
     "name": "IMPERMEABILIZANTE 5 AÑOS BLANC",
     "description": "IMPERMEABILIZANTE 5 AÑOS BLANCO TERRACOTA GACOFLEX 19 L",
@@ -16,6 +136,14 @@
     "category": "HOGAR",
     "main_category": "LINEA BLANCA",
     "brand": "POR DEFECTO"
+  },
+  {
+    "articulo_id": "0641993",
+    "name": "PACK HIPPIE 18 20 24 CM",
+    "description": "PACK HIPPIE 18 20 24 CM",
+    "category": "COCINA",
+    "main_category": "SARTENES",
+    "brand": "EKCOVASCONIA"
   },
   {
     "articulo_id": "53092",
@@ -29491,8 +29619,8 @@
   },
   {
     "articulo_id": "104415569",
-    "name": "CERCA CLASICA 1.2MX2.4  LATTIC",
-    "description": "CERCA CLASICA 1.2MX2.4  LATTICE",
+    "name": "CERCA CLASICA 60CMX2.4  LATTIC",
+    "description": "CERCA CLASICA 60CMX2.4  LATTICE",
     "category": "HOGAR",
     "main_category": "JARDINERIA",
     "brand": "LOWE´S"
@@ -32439,14 +32567,6 @@
     "description": "RODILLERA MULTIUSOS",
     "category": "FERRETERIA",
     "main_category": "SEGURIDAD",
-    "brand": "LOWE´S"
-  },
-  {
-    "articulo_id": "299203",
-    "name": "ELIMINADOR HUM 400 GRS DAMP RI",
-    "description": "ELIMINADOR HUM 400 GRS DAMP RID",
-    "category": "HOGAR",
-    "main_category": null,
     "brand": "LOWE´S"
   },
   {
@@ -38504,6 +38624,14 @@
     "category": "HOGAR",
     "main_category": "ILUMINACION",
     "brand": "PLUSRITE"
+  },
+  {
+    "articulo_id": "21280001",
+    "name": "WC ONE PIECE VENUS BLANCO",
+    "description": "WC ONE PIECE VENUS BLANCO",
+    "category": "BAÑOS",
+    "main_category": "SANITARIOS",
+    "brand": "CASTEL"
   },
   {
     "articulo_id": "131190",
