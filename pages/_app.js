@@ -89,25 +89,15 @@ const MyApp = ({ Component, pageProps }) => {
             name="viewport"
             content="width=device-width, initial-scale=1.0, user-scalable=no, maximum-scale=5"
           />
-          {/* Facebook Pixel Code */}
+
           {/* <Script
             strategy="afterInteractive"
             dangerouslySetInnerHTML={{
               __html: `
-                !function(f,b,e,v,n,t,s)
-                {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-                n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-                if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-                n.queue=[];t=b.createElement(e);t.async=!0;
-                t.src=v;s=b.getElementsByTagName(e)[0];
-                s.parentNode.insertBefore(t,s)}(window, document,'script',
-                'https://connect.facebook.net/en_US/fbevents.js');
-                fbq('init', ${process.env.NEXT_PUBLIC_FACEBOOK_PIXEL_ID});
-                fbq('track', 'PageView');
-              `,
+              <script>function loadScript(a){var b=document.getElementsByTagName("head")[0],c=document.createElement("script");c.type="text/javascript",c.src="https://tracker.metricool.com/resources/be.js",c.onreadystatechange=a,c.onload=a,b.appendChild(c)}loadScript(function(){beTracker.t({hash:"1f0b7228af6e72ede093d1018757a87"})});</script>
+            `,
             }}
           /> */}
-          {/* End Facebook Pixel Code */}
         </Head>
         <GlobalStyles />
         <ThemeProvider theme={theme}>

@@ -39,7 +39,7 @@ const formatter = new Intl.NumberFormat("en-US", {
 });
 
 const Success = ({ purchasingData, setPurchaseSuccess }) => {
-  // setPurchaseSuccess();
+  setPurchaseSuccess();
   console.log("purchasingData: ", purchasingData);
 
   return (

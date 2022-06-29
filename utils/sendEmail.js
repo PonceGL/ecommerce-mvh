@@ -500,7 +500,6 @@ export const sendEmail = (order) => {
 
   const bodyOfMessageToCompany = {
     receiver: `${process.env.NEXT_PUBLIC_MAIL_SMTP}, ventasweb@grupovasquez.com.mx, poncianogl@hotmail.com`,
-    // receiver: `poncianogl@hotmail.com`,
     subject: `Nueva compra ${message.date}`,
     html: `<!DOCTYPE html>
       <html>
